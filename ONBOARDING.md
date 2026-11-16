@@ -13,7 +13,7 @@ family eligible but does not guarantee it will be accepted.
       AUTHORS, sources and fonts.
 - [ ] Create a **public** repository named `noto-serif-mono`. Google Fonts does
       not accept contributions from forks.
-- [ ] Push. GitHub Actions builds the fonts and runs FontBakery. Download
+- [ ] Push. GitHub Actions builds the fonts and runs fontspector. Download
       the `noto-serif-mono-qa` artifact for the report.
 
 ## 2. Ask Google Fonts early
@@ -37,7 +37,7 @@ family eligible but does not guarantee it will be accepted.
 | OFL 1.1, no Reserved Font Name | ✅ `OFL.txt` |
 | Sources in the repo, built with open-source tools | ✅ UFO sources plus `sources/config.yaml`. ⚠️ Run `make build` once and check `make verify` |
 | Repository layout (project template) | ✅ |
-| Copyright string format | ⚠️ Google Fonts expects `Copyright YYYY The X Project Authors (URL)`. The Noto Serif notice must stay (OFL), so the string carries both notices. If FontBakery objects, ask the onboarding team which format they want for derivatives |
+| Copyright string format | ⚠️ Google Fonts expects `Copyright YYYY The X Project Authors (URL)`. The Noto Serif notice must stay (OFL), so the string carries both notices. If fontspector objects, ask the onboarding team which format they want for derivatives |
 | License description and URL in the name table | ✅ |
 | `fsType` 0 | ✅ |
 | Monospace flags (`isFixedPitch`, PANOSE proportion 9, uniform advances) | ✅ |
@@ -45,11 +45,11 @@ family eligible but does not guarantee it will be accepted.
 | Hinting (ttfautohint for static TTFs) | ✅ `scripts/hint.py` reapplies the family alignment fix after autohinting |
 | Win ascent/descent cover all glyphs | ❌ see below |
 | Vendor ID | ⚠️ `NONE`. Register one with Microsoft or leave it as is |
-| GF Latin Core glyph set | ⚠️ likely complete; confirm with FontBakery's glyph-coverage check |
-| FontBakery googlefonts profile, no FAILs | ⚠️ run `make test` |
+| GF Latin Core glyph set | ⚠️ likely complete; confirm with fontspector's glyph-coverage check |
+| fontspector googlefonts profile, no FAILs | ⚠️ 1 FAIL left: Khanty Tje U+1C89/U+1C8A not drawn (Noto Serif 2.015 has no Tje either); run `make test` |
 | Variable font | ⚠️ see below |
 
-### Win descent (a FontBakery FAIL in the universal checks)
+### Win descent (a fontspector FAIL in the universal checks)
 
 `usWinDescent` is 293 units, but 7 inherited glyphs reach lower:
 ℊ (−389), U+A670–A672, U+0489, U+2E10 and U+2E11. Windows GDI clips
@@ -78,7 +78,7 @@ family first.
 
 - [ ] Tag a release (`git tag v2.501 && git push --tags`). CI attaches the
       fonts to a GitHub release.
-- [ ] Update the issue with the release link, the FontBakery report and the
+- [ ] Update the issue with the release link, the fontspector report and the
       proofs (`make proof`). The Google Fonts team packages the family with
       `gftools packager`; you do not open a PR to google/fonts yourself
       unless they ask you to.

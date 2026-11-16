@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EE3.sc" format="2">
+  <advance width="573"/>
+  <anchor x="186" y="-182" name="bottom"/>
+  <anchor x="277" y="286" name="center"/>
+  <anchor x="334" y="571" name="top"/>
+  <anchor x="611" y="571" name="topright"/>
+  <anchor x="186" y="-182" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="194" y="-182" type="qcurve"/>
+      <point x="208" y="-182"/>
+      <point x="234" y="-151"/>
+      <point x="236" y="-112" type="qcurve"/>
+      <point x="237" y="-84"/>
+      <point x="217" y="-57"/>
+      <point x="201" y="-57" type="qcurve"/>
+      <point x="184" y="-57"/>
+      <point x="161" y="-95"/>
+      <point x="159" y="-127" type="qcurve"/>
+      <point x="158" y="-155"/>
+      <point x="177" y="-182"/>
+    </contour>
+    <component base="o.sc"/>
+    <component base="uni031B" xOffset="570" yOffset="35"/>
+  </outline>
+</glyph>

@@ -1,9 +1,9 @@
 # gftools builder configuration. Run from the repository root: make build
 sources:
-  - ArborMono-Regular.ufo
-  - ArborMono-Italic.ufo
-  - ArborMono-Bold.ufo
-  - ArborMono-BoldItalic.ufo
+  - NotoSerifMono-Regular.ufo
+  - NotoSerifMono-Italic.ufo
+  - NotoSerifMono-Bold.ufo
+  - NotoSerifMono-BoldItalic.ufo
 familyName: "Noto Serif Mono"
 buildVariable: false        # Regular and Bold are not point-compatible yet (see ONBOARDING.md)
 buildStatic: true

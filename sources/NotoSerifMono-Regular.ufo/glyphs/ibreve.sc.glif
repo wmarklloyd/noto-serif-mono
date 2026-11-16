@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve.sc" format="2">
+  <advance width="573"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="287" y="778" name="top"/>
+  <anchor x="431" y="571" name="topright"/>
+  <anchor x="287" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="163" y="0" type="line"/>
+      <point x="412" y="0" type="line"/>
+      <point x="412" y="42" type="line"/>
+      <point x="391" y="42" type="line"/>
+      <point x="368" y="42"/>
+      <point x="334" y="61"/>
+      <point x="334" y="98" type="qcurve"/>
+      <point x="334" y="474" type="line"/>
+      <point x="334" y="510"/>
+      <point x="368" y="529"/>
+      <point x="391" y="529" type="qcurve"/>
+      <point x="412" y="529" type="line"/>
+      <point x="412" y="571" type="line"/>
+      <point x="163" y="571" type="line"/>
+      <point x="163" y="529" type="line"/>
+      <point x="183" y="529" type="line"/>
+      <point x="206" y="529"/>
+      <point x="240" y="511"/>
+      <point x="240" y="477" type="qcurve"/>
+      <point x="240" y="98" type="line"/>
+      <point x="240" y="61"/>
+      <point x="207" y="42"/>
+      <point x="183" y="42" type="qcurve"/>
+      <point x="163" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="287" y="606" type="qcurve"/>
+      <point x="358" y="606"/>
+      <point x="426" y="687"/>
+      <point x="427" y="743" type="qcurve"/>
+      <point x="381" y="743" type="line"/>
+      <point x="373" y="707"/>
+      <point x="324" y="675"/>
+      <point x="287" y="675" type="qcurve"/>
+      <point x="250" y="675"/>
+      <point x="201" y="707"/>
+      <point x="193" y="743" type="qcurve"/>
+      <point x="147" y="743" type="line"/>
+      <point x="149" y="687"/>
+      <point x="216" y="606"/>
+    </contour>
+  </outline>
+</glyph>

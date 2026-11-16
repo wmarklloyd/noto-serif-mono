@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin.ss03" format="2">
+  <advance width="573"/>
+  <anchor x="70" y="-240" name="bottom"/>
+  <anchor x="430" y="723" name="top"/>
+  <anchor x="70" y="-240" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="70" y="-240" type="qcurve"/>
+      <point x="102" y="-240"/>
+      <point x="166" y="-218"/>
+      <point x="225" y="-161"/>
+      <point x="271" y="-59"/>
+      <point x="284" y="21" type="qcurve"/>
+      <point x="341" y="377" type="line"/>
+      <point x="438" y="377" type="line"/>
+      <point x="449" y="445" type="line"/>
+      <point x="353" y="445" type="line"/>
+      <point x="369" y="553" type="line"/>
+      <point x="377" y="609"/>
+      <point x="403" y="664"/>
+      <point x="427" y="664" type="qcurve"/>
+      <point x="447" y="664"/>
+      <point x="462" y="604"/>
+      <point x="462" y="566" type="qcurve"/>
+      <point x="504" y="566"/>
+      <point x="549" y="603"/>
+      <point x="549" y="636" type="qcurve"/>
+      <point x="549" y="673"/>
+      <point x="488" y="723"/>
+      <point x="430" y="723" type="qcurve"/>
+      <point x="353" y="723"/>
+      <point x="264" y="626"/>
+      <point x="249" y="526" type="qcurve"/>
+      <point x="237" y="445" type="line"/>
+      <point x="167" y="445" type="line"/>
+      <point x="156" y="377" type="line"/>
+      <point x="226" y="377" type="line"/>
+      <point x="164" y="-9" type="line"/>
+      <point x="153" y="-75"/>
+      <point x="127" y="-150"/>
+      <point x="93" y="-181"/>
+      <point x="68" y="-181" type="qcurve"/>
+      <point x="60" y="-181"/>
+      <point x="39" y="-176"/>
+      <point x="33" y="-174" type="qcurve"/>
+      <point x="24" y="-232" type="line"/>
+      <point x="32" y="-235"/>
+      <point x="59" y="-240"/>
+    </contour>
+  </outline>
+</glyph>

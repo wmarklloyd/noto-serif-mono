@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FBD" format="2">
+  <advance width="573"/>
+  <unicode hex="1FBD"/>
+  <outline>
+    <contour>
+      <point x="221" y="582" type="qcurve"/>
+      <point x="221" y="546" type="line"/>
+      <point x="273" y="553"/>
+      <point x="330" y="588"/>
+      <point x="353" y="633"/>
+      <point x="353" y="655" type="qcurve"/>
+      <point x="353" y="690"/>
+      <point x="314" y="724"/>
+      <point x="285" y="724" type="qcurve"/>
+      <point x="253" y="724"/>
+      <point x="225" y="694"/>
+      <point x="225" y="680" type="qcurve"/>
+      <point x="225" y="662"/>
+      <point x="241" y="645"/>
+      <point x="262" y="638"/>
+      <point x="278" y="631"/>
+      <point x="278" y="622" type="qcurve"/>
+      <point x="278" y="610"/>
+      <point x="256" y="590"/>
+    </contour>
+  </outline>
+</glyph>

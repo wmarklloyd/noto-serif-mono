@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA78C.sc" format="2">
+  <advance width="573"/>
+  <anchor x="244" y="182" name="bottom"/>
+  <anchor x="326" y="571" name="top"/>
+  <anchor x="244" y="182" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="229" y="182" type="line"/>
+      <point x="280" y="182" type="line"/>
+      <point x="423" y="571" type="line"/>
+      <point x="272" y="571" type="line"/>
+    </contour>
+  </outline>
+</glyph>

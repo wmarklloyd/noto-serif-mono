@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C6C.sc" format="2">
+  <advance width="573"/>
+  <anchor x="187" y="-168" name="bottom"/>
+  <anchor x="323" y="571" name="top"/>
+  <anchor x="187" y="-168" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="334" y="-168" type="qcurve"/>
+      <point x="376" y="-168" type="line"/>
+      <point x="416" y="49" type="line"/>
+      <point x="172" y="49" type="line"/>
+      <point x="492" y="530" type="line"/>
+      <point x="499" y="571" type="line"/>
+      <point x="162" y="571" type="line"/>
+      <point x="129" y="406" type="line"/>
+      <point x="176" y="406" type="line"/>
+      <point x="188" y="453" type="line"/>
+      <point x="197" y="490"/>
+      <point x="234" y="522"/>
+      <point x="261" y="522" type="qcurve"/>
+      <point x="361" y="522" type="line"/>
+      <point x="48" y="40" type="line"/>
+      <point x="42" y="0" type="line"/>
+      <point x="272" y="0" type="line"/>
+      <point x="306" y="0"/>
+      <point x="343" y="-47"/>
+      <point x="342" y="-99" type="qcurve"/>
+      <point x="342" y="-114"/>
+      <point x="338" y="-148"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overscore.sc" format="2">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="90" y="608" type="line"/>
+      <point x="483" y="608" type="line"/>
+      <point x="483" y="656" type="line"/>
+      <point x="90" y="656" type="line"/>
+    </contour>
+  </outline>
+</glyph>

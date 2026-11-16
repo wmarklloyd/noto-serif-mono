@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationDoubleStruck" format="2">
+  <advance width="573"/>
+  <unicode hex="2140"/>
+  <outline>
+    <contour>
+      <point x="24" y="-240" type="line"/>
+      <point x="549" y="-240" type="line"/>
+      <point x="549" y="-74" type="line"/>
+      <point x="170" y="-74" type="line"/>
+      <point x="434" y="260" type="line"/>
+      <point x="212" y="659" type="line"/>
+      <point x="535" y="659" type="line"/>
+      <point x="535" y="714" type="line"/>
+      <point x="35" y="714" type="line"/>
+      <point x="35" y="659" type="line"/>
+      <point x="304" y="177" type="line"/>
+      <point x="24" y="-177" type="line"/>
+    </contour>
+    <contour>
+      <point x="336" y="217" type="line"/>
+      <point x="90" y="659" type="line"/>
+      <point x="157" y="659" type="line"/>
+      <point x="376" y="266" type="line"/>
+    </contour>
+    <contour>
+      <point x="78" y="-188" type="line"/>
+      <point x="128" y="-126" type="line"/>
+      <point x="506" y="-126" type="line"/>
+      <point x="506" y="-188" type="line"/>
+    </contour>
+  </outline>
+</glyph>

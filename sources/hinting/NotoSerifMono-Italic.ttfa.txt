@@ -12,7 +12,6 @@ Upsilondieresis touch 51-74 yshift 1 @ 9
 Wdieresis touch 53-76 yshift 1 @ 9
 Ydieresis touch 51-74 yshift 1 @ 9
 iotadieresis touch 22-45 yshift 1 @ 8, 14, 15
-iotadieresistonos touch 22-57 yshift 1 @ 8
 uhungarumlaut touch 57-80 yshift 1 @ 11
 uni01D6 touch 55-82 yshift 1 @ 14, 15
 uni01D8 touch 55-88 yshift 1 @ 14, 15
@@ -59,7 +58,7 @@ uni1E38 touch 28-31 yshift 1 @ 11
 uni1E5C touch 54-57 yshift 1 @ 11
 uni1E65 touch 46-68 yshift 1 @ 13, 14, 15
 uni1E8C touch 64-86 yshift 1 @ 9
-uni1E99 touch 45-63 yshift 1 @ 15
+uni1E99 touch 45-63 yshift 1 @ 17
 uni1E9B touch 30-41 yshift 1 @ 16, 17
 uni1EF9 touch 45-68 yshift 1 @ 14, 15
 uni1F07 touch 59-96 yshift 1 @ 20
@@ -67,14 +66,17 @@ uni1F27 touch 44-81 yshift 1 @ 20
 uni1F36 touch 22-59 yshift 1 @ 14
 uni1F37 touch 22-59 yshift 1 @ 14, 15
 uni1F57 touch 41-78 yshift 1 @ 20
-uni1F86 touch 58-78, 101-117 yshift 1 @ 19, 20, 23, 24, 27, 28
-uni1F87 touch 58-78, 101-117 yshift 1 @ 20
-uni1F97 touch 44-64, 87-103 yshift 1 @ 20
-uni1FB2 touch 80-91 yshift 1 @ 14, 15
-uni1FB4 touch 80-92 yshift 1 @ 14, 15
-uni1FB7 touch 58-81 yshift 1 @ 14, 15
-uni1FC6 touch 44-67 yshift 1 @ 14, 15
-uni1FC7 touch 44-67 yshift 1 @ 14, 15
-uni1FD7 touch 22-66 yshift 1 @ 14, 15
-uni1FE7 touch 41-85 yshift 1 @ 15
+uni1F83 touch 80-106 yshift 1 @ 15, 16
+uni1F84 touch 58-73, 96-106 yshift 1 @ 15, 16, 17
+uni1F85 touch 80-106 yshift 1 @ 15, 16, 17
+uni1F86 touch 58-78, 101-117 yshift 1 @ 18, 19, 25, 26
+uni1FB6 touch 59-82 yshift 1 @ 13, 14
+uni1FB7 touch 58-81 yshift 1 @ 13, 14
+uni1FC6 touch 44-67 yshift 1 @ 13, 14
+uni1FC7 touch 44-67 yshift 1 @ 13, 14
+uni1FE2 touch 41-75 yshift 1 @ 17
+uni1FE3 touch 41-75 yshift 1 @ 17
+uni1FE6 touch 41-64 yshift 1 @ 13, 14
+uni1FE7 touch 41-85 yshift 1 @ 15, 16, 17
 upsilondieresis touch 41-64 yshift 1 @ 14, 15
+upsilondieresistonos touch 41-76 yshift 1 @ 9

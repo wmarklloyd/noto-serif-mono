@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kgreenlandic" format="2">
+  <advance width="573"/>
+  <unicode hex="0138"/>
+  <anchor x="197" y="0" name="bottom"/>
+  <anchor x="308" y="536" name="top"/>
+  <anchor x="197" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="467" y="-7" type="qcurve"/>
+      <point x="475" y="-7" type="line"/>
+      <point x="484" y="35" type="line"/>
+      <point x="447" y="35"/>
+      <point x="403" y="82"/>
+      <point x="388" y="119" type="qcurve"/>
+      <point x="303" y="317" type="line"/>
+      <point x="389" y="400" type="line"/>
+      <point x="435" y="444"/>
+      <point x="509" y="494"/>
+      <point x="542" y="494" type="qcurve"/>
+      <point x="551" y="536" type="line"/>
+      <point x="339" y="536" type="line"/>
+      <point x="330" y="494" type="line"/>
+      <point x="354" y="494"/>
+      <point x="373" y="486"/>
+      <point x="373" y="478" type="qcurve"/>
+      <point x="374" y="465"/>
+      <point x="343" y="419"/>
+      <point x="304" y="384" type="qcurve"/>
+      <point x="155" y="247" type="line"/>
+      <point x="165" y="282"/>
+      <point x="178" y="330"/>
+      <point x="190" y="379"/>
+      <point x="197" y="412" type="qcurve"/>
+      <point x="224" y="536" type="line"/>
+      <point x="48" y="536" type="line"/>
+      <point x="39" y="494" type="line"/>
+      <point x="46" y="494" type="line"/>
+      <point x="74" y="494"/>
+      <point x="113" y="477"/>
+      <point x="112" y="447" type="qcurve"/>
+      <point x="112" y="443"/>
+      <point x="108" y="414"/>
+      <point x="104" y="394" type="qcurve"/>
+      <point x="22" y="0" type="line"/>
+      <point x="111" y="0" type="line"/>
+      <point x="152" y="198" type="line"/>
+      <point x="236" y="256" type="line"/>
+      <point x="296" y="96" type="line"/>
+      <point x="311" y="57"/>
+      <point x="350" y="12"/>
+      <point x="416" y="-6"/>
+    </contour>
+  </outline>
+</glyph>

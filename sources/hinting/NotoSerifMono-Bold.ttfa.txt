@@ -75,7 +75,6 @@ uni1E8F touch 49-60 yshift 1 @ 10, 11
 uni1E94 touch 21-24 yshift -1 @ 8
 uni1E95 touch 20-23 yshift -1 @ 8
 uni1E96 touch 48-51 yshift -1 @ 8
-uni1E99 touch 49-70 yshift 1 @ 14, 15
 uni1EAA touch 34-72 yshift 1 @ 21, 32
 uni1EBC touch 32-57 yshift 1 @ 16, 17
 uni1EC4 touch 32-71 yshift 1 @ 21, 32
@@ -97,15 +96,16 @@ uni1F78 touch 21-31 yshift 1 @ 14, 15
 uni1F79 touch 21-31 yshift 1 @ 14, 15
 uni1F7A touch 32-42 yshift 1 @ 14, 15
 uni1F7B touch 32-42 yshift 1 @ 14, 15
-uni1FB2 touch 46-56 yshift 1 @ 14, 15
-uni1FB4 touch 46-56 yshift 1 @ 14, 15
-uni1FC2 touch 36-46 yshift 1 @ 14, 15
-uni1FC4 touch 36-46 yshift 1 @ 14, 15
-uni1FD2 touch 16-48 yshift 1 @ 12, 13, 14, 15, 20
-uni1FD3 touch 16-48 yshift 1 @ 12, 13, 14, 15, 20
-uni1FD7 touch 16-59 yshift 1 @ 12, 13, 14, 15
-uni1FE2 touch 32-64 yshift 1 @ 12, 13, 14, 15, 20
-uni1FE3 touch 32-64 yshift 1 @ 12, 13, 14, 15, 20
-uni1FE7 touch 32-75 yshift 1 @ 14, 15
+uni1FB2 touch 46-56 yshift 1 @ 13, 14
+uni1FB4 touch 46-56 yshift 1 @ 13, 14
+uni1FB6 touch 48-73 yshift 1 @ 17
+uni1FB7 touch 46-71 yshift 1 @ 17
+uni1FC2 touch 36-46 yshift 1 @ 14, 15, 16, 18, 19
+uni1FC4 touch 36-46 yshift 1 @ 14, 15, 16, 18, 19
+uni1FC6 touch 36-61 yshift 1 @ 17, 18, 19
+uni1FC7 touch 36-61 yshift 1 @ 17, 18, 19
+uni1FE2 touch 32-64 yshift 1 @ 13, 14
+uni1FE3 touch 32-64 yshift 1 @ 13, 14
+uni1FE7 touch 32-75 yshift 1 @ 14, 15, 16
 upsilontonos touch 32-42 yshift 1 @ 14, 15
 zdotaccent touch 20-31 yshift 1 @ 10, 11

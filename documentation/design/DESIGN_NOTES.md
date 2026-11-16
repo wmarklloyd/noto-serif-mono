@@ -8,9 +8,10 @@ is not the original Noto Serif, and is not derived from proprietary Georgia.
 Noto Serif Mono and Noto Serif Mono Oldstyle use separate family and PostScript names.
 
 The font is intended to retain Noto Serif's open, transitional serifs at small
-text sizes while enforcing a fixed advance. Its advance is **563/1000 em**,
-approximately **9.008 px at 16 ppem**, so a word of eight characters consumes
-eight identical positions. It is close in proportion to Laurel Mono's
+text sizes while enforcing a fixed advance. Its advance is **573/1000 em**
+(563 in 2.501 and earlier; widened 10 units so neighbouring capitals keep clear),
+approximately **9.168 px at 16 ppem**, so a word of eight characters consumes
+eight identical positions. The original 563 matched Laurel Mono's
 1152/2048 (0.5625), which was chosen after comparisons with Consolas,
 Cascadia Code, and other monospaced families.
 

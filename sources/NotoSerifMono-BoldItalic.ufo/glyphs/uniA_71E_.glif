@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA71E" format="2">
+  <advance width="573"/>
+  <unicode hex="A71E"/>
+  <outline>
+    <contour>
+      <point x="388" y="741" type="qcurve"/>
+      <point x="422" y="741"/>
+      <point x="462" y="783"/>
+      <point x="462" y="817" type="qcurve"/>
+      <point x="462" y="849"/>
+      <point x="423" y="878"/>
+      <point x="392" y="878" type="qcurve"/>
+      <point x="366" y="878"/>
+      <point x="319" y="845"/>
+      <point x="319" y="802" type="qcurve"/>
+      <point x="319" y="771"/>
+      <point x="359" y="741"/>
+    </contour>
+    <contour>
+      <point x="202" y="303" type="line"/>
+      <point x="360" y="303" type="line"/>
+      <point x="410" y="689" type="line"/>
+      <point x="344" y="689" type="line"/>
+    </contour>
+  </outline>
+</glyph>

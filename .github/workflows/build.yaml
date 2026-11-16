@@ -25,7 +25,9 @@ jobs:
       - name: Check sources reproduce the build
         run: make verify
         continue-on-error: true
-      - name: FontBakery (googlefonts profile)
+      - name: Install fontspector
+        run: cargo install --locked fontspector
+      - name: fontspector (googlefonts profile)
         run: make test
       - name: Proofs
         run: make proof

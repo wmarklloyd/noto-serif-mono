@@ -1,7 +1,7 @@
 # QA tools
 
 These scripts render the fonts through FreeType directly. They check
-the hinting and the outlines in ways FontBakery does not. Run them from
+the hinting and the outlines in ways fontspector does not. Run them from
 the repository root. First compile the renderer once (it needs the
 FreeType development headers):
 
@@ -24,6 +24,6 @@ installed and a pure-Python flood fill otherwise.
 | `patch_round.py IN OUT CONST` | Experiment: change ttfautohint's x-height rounding threshold (default 40/64) |
 | `ftr_py.py FONT PPEM MODE INTERP GID…` | Pure-Python stand-in for the compiled `ftr` renderer |
 | `../make_hint_controls.py FONT…` | Not a check: regenerates the ttfautohint control files in `sources/hinting/` and reports any accent still touching its letter after hinting. Rerun it whenever outlines change, before `scripts/hint.py` |
-| `check_family.py DIR` | About 45 FontBakery-style metadata checks in pure fontTools, for use when FontBakery is unavailable |
+| `check_family.py DIR` | About 45 FontBakery/fontspector-style metadata checks in pure fontTools, for use when fontspector is unavailable |
 
 `STYLE` is one of Regular, Bold, Italic or BoldItalic, and refers to `fonts/ttf/NotoSerifMono-STYLE.ttf`.

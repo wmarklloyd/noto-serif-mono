@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="TurnedF" format="2">
+  <advance width="573"/>
+  <unicode hex="2132"/>
+  <anchor x="387" y="714" name="bottom"/>
+  <anchor x="283" y="0" name="top"/>
+  <anchor x="11" y="0" name="topright"/>
+  <anchor x="387" y="714" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="549" y="714" type="line"/>
+      <point x="206" y="714" type="line"/>
+      <point x="206" y="661" type="line"/>
+      <point x="264" y="661" type="line"/>
+      <point x="285" y="661"/>
+      <point x="313" y="639"/>
+      <point x="313" y="596" type="qcurve"/>
+      <point x="313" y="393" type="line"/>
+      <point x="91" y="393" type="line"/>
+      <point x="91" y="334" type="line"/>
+      <point x="313" y="334" type="line"/>
+      <point x="312" y="61" type="line"/>
+      <point x="164" y="61" type="line"/>
+      <point x="135" y="61"/>
+      <point x="100" y="96"/>
+      <point x="98" y="136" type="qcurve"/>
+      <point x="93" y="184" type="line"/>
+      <point x="24" y="184" type="line"/>
+      <point x="29" y="0" type="line"/>
+      <point x="549" y="0" type="line"/>
+      <point x="549" y="53" type="line"/>
+      <point x="510" y="53" type="line"/>
+      <point x="490" y="53"/>
+      <point x="462" y="74"/>
+      <point x="462" y="114" type="qcurve"/>
+      <point x="462" y="601" type="line"/>
+      <point x="462" y="641"/>
+      <point x="490" y="661"/>
+      <point x="510" y="661" type="qcurve"/>
+      <point x="549" y="661" type="line"/>
+    </contour>
+  </outline>
+</glyph>

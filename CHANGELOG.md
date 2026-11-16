@@ -5,6 +5,9 @@ The full per-version notes for 1.x–2.5 are in
 [documentation/design/RELEASE-NOTES-1.x-2.5.txt](documentation/design/RELEASE-NOTES-1.x-2.5.txt).
 
 ## Unreleased
+- Spacing: the cell is 10 units wider (563 to 573 per 1000 em), 5 units added on each side
+  of every glyph, so serifs on neighbouring capitals no longer come close to touching.
+  Combining marks are unchanged; anchors move with their letters.
 - FontBakery (googlefonts profile): 21 FAIL to 0 FAIL, 51 WARN to 39. Scripts in `scripts/history/v2.502/`.
 - Build: overlaps removed with skia-pathops (booleanOperations cannot handle the quadratic
   sources); the small-caps family build is off; `scripts/hint.py` adds a STAT table and
@@ -48,6 +51,28 @@ The full per-version notes for 1.x–2.5 are in
   because lifting them would clip under Windows GDI. FreeType's pedantic mode reports no
   bytecode errors at 7–72 px.
 - `meta` table (design and supported scripts: Latin, Greek, Cyrillic), added by `scripts/hint.py`.
+- Family renamed Noto Serif Mono. Fontspector (googlefonts profile, which supersedes
+  FontBakery): 16 FAIL to 1, 77 WARN to 11 check types. The FAIL left is Khanty
+  U+1C89/U+1C8A Tje, which is not drawn: Noto Serif (2.015) has no Tje to adapt.
+- Glyphs: added U+A7DC Ꟍ LATIN CAPITAL LETTER LAMBDA WITH STROKE (ƛ at cap height), so ƛ
+  now has a case pair.
+- Small caps: `smcp` covers every lowercase letter with a capital (about 480 more per style,
+  drawn from the capitals) and `c2sc` the matching capitals; caseless letters map to
+  themselves so `smcp` text no longer mixes in lowercase forms. Greek small caps with a
+  breathing and accent put them side by side, as the lowercase does, instead of stacking
+  them above the line spacing.
+- Greek: the breathing marks on Ἲ Ἳ Ἴ Ἵ and the Bold capitals no longer touch the
+  accent next to them.
+- Outlines: removed leftover slivers from overlap removal (italic M, W and relatives,
+  ꙮ), and the hairline spike inside the italic w's middle apex.
+- `scripts/hint.py` sets the OVERLAP_COMPOUND flag on the few composites whose components
+  still overlap (small-cap ḑ ḩ ữ), so renderers that honour it fill them correctly.
+- Repository: UFO sources renamed `NotoSerifMono-*.ufo`. `make build` regenerates the
+  hinting control files before hinting; `make test`, CI and `scripts/run_fontspector.sh`
+  run fontspector instead of FontBakery, on a copy of the fonts in
+  `out/fontspector/notoserifmono/` (the family's directory in google/fonts), so
+  `dirname_matches_nameid_1` passes. `scripts/verify_sources.py` compares outlines
+  after the build's own overlap removal and rounding, so `make verify` passes again.
 
 ## 2.501 — 2026-11-15
 - First public repository. Added UFO sources (generated from the 2.501 binaries and checked

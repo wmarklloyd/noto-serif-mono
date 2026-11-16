@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brackhalftopleft" format="2">
+  <advance width="573"/>
+  <unicode hex="2E22"/>
+  <outline>
+    <contour>
+      <point x="128" y="315" type="line"/>
+      <point x="226" y="315" type="line"/>
+      <point x="297" y="646" type="line"/>
+      <point x="307" y="693"/>
+      <point x="360" y="718"/>
+      <point x="394" y="718" type="qcurve"/>
+      <point x="437" y="718" type="line"/>
+      <point x="446" y="760" type="line"/>
+      <point x="223" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>
