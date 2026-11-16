@@ -1,0 +1,13 @@
+venv/
+out/
+build/
+build.stamp
+*.pyc
+__pycache__/
+.DS_Store
+scripts/qa/ftr
+instance_ufo/
+master_ufo/
+
+sources/build.ninja
+sources/.ninja_log

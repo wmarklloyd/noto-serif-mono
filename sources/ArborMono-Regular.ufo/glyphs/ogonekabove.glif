@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonekabove" format="2">
+  <unicode hex="1DCE"/>
+  <anchor x="-272" y="536" name="_top"/>
+  <anchor x="-272" y="776" name="top"/>
+  <outline>
+    <contour>
+      <point x="-340" y="536" type="qcurve"/>
+      <point x="-283" y="536" type="line"/>
+      <point x="-253" y="543"/>
+      <point x="-199" y="581"/>
+      <point x="-165" y="635"/>
+      <point x="-165" y="666" type="qcurve"/>
+      <point x="-165" y="723"/>
+      <point x="-239" y="776"/>
+      <point x="-302" y="776" type="qcurve"/>
+      <point x="-318" y="776"/>
+      <point x="-364" y="768"/>
+      <point x="-379" y="760" type="qcurve"/>
+      <point x="-379" y="706" type="line"/>
+      <point x="-360" y="710"/>
+      <point x="-329" y="714"/>
+      <point x="-316" y="714" type="qcurve"/>
+      <point x="-286" y="714"/>
+      <point x="-247" y="685"/>
+      <point x="-247" y="651" type="qcurve"/>
+      <point x="-247" y="620"/>
+      <point x="-276" y="573"/>
+      <point x="-319" y="543"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EF1.sc" format="2">
+  <advance width="563"/>
+  <anchor x="137" y="-201" name="bottom"/>
+  <anchor x="266" y="571" name="top"/>
+  <anchor x="515" y="571" name="topright"/>
+  <anchor x="137" y="-201" name="ogonek"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="uni031B" xOffset="472" yOffset="35"/>
+    <component base="dotbelowcomb" xOffset="509"/>
+  </outline>
+</glyph>

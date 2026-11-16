@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="flattenedopenaabove" format="2">
+  <unicode hex="1DD3"/>
+  <anchor x="0" y="536" name="_top"/>
+  <anchor x="0" y="744" name="top"/>
+  <outline>
+    <contour>
+      <point x="-88" y="598" type="qcurve"/>
+      <point x="-58" y="598"/>
+      <point x="-14" y="623"/>
+      <point x="-1" y="640" type="qcurve"/>
+      <point x="9" y="623"/>
+      <point x="50" y="598"/>
+      <point x="80" y="598" type="qcurve"/>
+      <point x="131" y="598"/>
+      <point x="189" y="665"/>
+      <point x="192" y="744" type="qcurve"/>
+      <point x="131" y="744" type="line"/>
+      <point x="127" y="704"/>
+      <point x="106" y="667"/>
+      <point x="80" y="667" type="qcurve"/>
+      <point x="55" y="667"/>
+      <point x="31" y="703"/>
+      <point x="31" y="744" type="qcurve"/>
+      <point x="-30" y="744" type="line"/>
+      <point x="-30" y="700"/>
+      <point x="-59" y="667"/>
+      <point x="-83" y="667" type="qcurve"/>
+      <point x="-128" y="667"/>
+      <point x="-129" y="744" type="qcurve"/>
+      <point x="-192" y="744" type="line"/>
+      <point x="-192" y="668"/>
+      <point x="-137" y="598"/>
+    </contour>
+  </outline>
+</glyph>

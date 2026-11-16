@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dottedgrave" format="2">
+  <unicode hex="1DC0"/>
+  <anchor x="-20" y="536" name="_top"/>
+  <anchor x="-20" y="803" name="top"/>
+  <outline>
+    <contour>
+      <point x="97" y="703" type="qcurve"/>
+      <point x="116" y="703"/>
+      <point x="144" y="728"/>
+      <point x="144" y="753" type="qcurve"/>
+      <point x="144" y="779"/>
+      <point x="116" y="803"/>
+      <point x="97" y="803" type="qcurve"/>
+      <point x="78" y="803"/>
+      <point x="50" y="779"/>
+      <point x="50" y="753" type="qcurve"/>
+      <point x="50" y="728"/>
+      <point x="78" y="703"/>
+    </contour>
+    <contour>
+      <point x="12" y="638" type="qcurve"/>
+      <point x="45" y="638" type="line"/>
+      <point x="45" y="651" type="line"/>
+      <point x="38" y="669"/>
+      <point x="21" y="722"/>
+      <point x="7" y="777"/>
+      <point x="4" y="798" type="qcurve"/>
+      <point x="-86" y="798" type="line"/>
+      <point x="-86" y="788" type="line"/>
+      <point x="-82" y="772"/>
+      <point x="-48" y="715"/>
+      <point x="-5" y="657"/>
+    </contour>
+    <contour>
+      <point x="-137" y="631" type="qcurve"/>
+      <point x="-118" y="631"/>
+      <point x="-90" y="656"/>
+      <point x="-90" y="681" type="qcurve"/>
+      <point x="-90" y="707"/>
+      <point x="-118" y="731"/>
+      <point x="-137" y="731" type="qcurve"/>
+      <point x="-156" y="731"/>
+      <point x="-184" y="707"/>
+      <point x="-184" y="681" type="qcurve"/>
+      <point x="-184" y="656"/>
+      <point x="-156" y="631"/>
+    </contour>
+  </outline>
+</glyph>

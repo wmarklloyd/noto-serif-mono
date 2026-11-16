@@ -1,0 +1,15 @@
+# gftools builder configuration. Run from the repository root: make build
+sources:
+  - ArborMono-Regular.ufo
+  - ArborMono-Italic.ufo
+  - ArborMono-Bold.ufo
+  - ArborMono-BoldItalic.ufo
+familyName: "Noto Serif Mono"
+buildVariable: false        # Regular and Bold are not point-compatible yet (see ONBOARDING.md)
+buildStatic: true
+buildOTF: false             # Google Fonts only needs TTF
+buildWebfont: true
+buildSmallCap: false        # no separate "Noto Serif Mono SC" family
+autohintTTF: false          # scripts/hint.py runs ttfautohint with Noto Serif Mono's settings
+extraFontmakeArgs: "--overlaps-backend pathops"   # booleanOperations cannot handle the quadratic (qcurve) sources
+outputDir: "../fonts"

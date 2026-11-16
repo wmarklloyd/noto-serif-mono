@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Turnede" format="2">
+  <advance width="563"/>
+  <unicode hex="2C7B"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="280" y="536" name="top"/>
+  <anchor x="280" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="496" y="0" type="line"/>
+      <point x="496" y="41" type="line"/>
+      <point x="479" y="41" type="line"/>
+      <point x="456" y="41"/>
+      <point x="424" y="56"/>
+      <point x="424" y="86" type="qcurve"/>
+      <point x="424" y="447" type="line"/>
+      <point x="424" y="478"/>
+      <point x="455" y="495"/>
+      <point x="479" y="495" type="qcurve"/>
+      <point x="496" y="495" type="line"/>
+      <point x="496" y="536" type="line"/>
+      <point x="97" y="536" type="line"/>
+      <point x="93" y="397" type="line"/>
+      <point x="142" y="397" type="line"/>
+      <point x="146" y="432" type="line"/>
+      <point x="149" y="455"/>
+      <point x="176" y="488"/>
+      <point x="207" y="488" type="qcurve"/>
+      <point x="332" y="488" type="line"/>
+      <point x="332" y="304" type="line"/>
+      <point x="147" y="304" type="line"/>
+      <point x="147" y="257" type="line"/>
+      <point x="332" y="257" type="line"/>
+      <point x="332" y="47" type="line"/>
+      <point x="187" y="47" type="line"/>
+      <point x="153" y="47"/>
+      <point x="125" y="90"/>
+      <point x="120" y="120" type="qcurve"/>
+      <point x="117" y="139" type="line"/>
+      <point x="67" y="139" type="line"/>
+    </contour>
+  </outline>
+</glyph>

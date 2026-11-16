@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0319" format="2">
+  <unicode hex="0319"/>
+  <anchor x="-58" y="0" name="_bottom"/>
+  <anchor x="-83" y="-211" name="bottom"/>
+  <anchor x="-83" y="-211" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="-176" y="-211" type="line"/>
+      <point x="-124" y="-211" type="line"/>
+      <point x="-112" y="-151" type="line"/>
+      <point x="-5" y="-151" type="line"/>
+      <point x="7" y="-98" type="line"/>
+      <point x="-101" y="-98" type="line"/>
+      <point x="-88" y="-38" type="line"/>
+      <point x="-139" y="-38" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="imoddotless" format="2">
+  <advance width="563"/>
+  <anchor x="231" y="287" name="bottom"/>
+  <anchor x="305" y="609" name="top"/>
+  <anchor x="407" y="609" name="topright"/>
+  <anchor x="231" y="287" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="273" y="281" type="qcurve"/>
+      <point x="309" y="281"/>
+      <point x="357" y="307"/>
+      <point x="373" y="322" type="qcurve"/>
+      <point x="357" y="343" type="line"/>
+      <point x="346" y="336"/>
+      <point x="329" y="329"/>
+      <point x="319" y="329" type="qcurve"/>
+      <point x="296" y="329"/>
+      <point x="296" y="356" type="qcurve"/>
+      <point x="296" y="369"/>
+      <point x="301" y="398"/>
+      <point x="305" y="414" type="qcurve"/>
+      <point x="350" y="609" type="line"/>
+      <point x="197" y="609" type="line"/>
+      <point x="190" y="577" type="line"/>
+      <point x="202" y="577" type="line"/>
+      <point x="220" y="577"/>
+      <point x="236" y="568"/>
+      <point x="236" y="552" type="qcurve"/>
+      <point x="236" y="550"/>
+      <point x="234" y="534"/>
+      <point x="232" y="526" type="qcurve"/>
+      <point x="206" y="414" type="line"/>
+      <point x="201" y="392"/>
+      <point x="196" y="356"/>
+      <point x="196" y="343" type="qcurve"/>
+      <point x="196" y="314"/>
+      <point x="236" y="281"/>
+    </contour>
+  </outline>
+</glyph>

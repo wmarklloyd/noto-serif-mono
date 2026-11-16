@@ -1,0 +1,48 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install toolchain
+        run: make venv
+      - name: Build fonts
+        run: make build
+      - name: Check sources reproduce the build
+        run: make verify
+        continue-on-error: true
+      - name: FontBakery (googlefonts profile)
+        run: make test
+      - name: Proofs
+        run: make proof
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noto-serif-mono-fonts
+          path: fonts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: noto-serif-mono-qa
+          path: out
+      - name: Release (on version tags)
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          cd fonts && zip -r ../NotoSerifMono-${GITHUB_REF_NAME}.zip . && cd ..
+          zip -j NotoSerifMono-${GITHUB_REF_NAME}.zip OFL.txt README.md
+          gh release create "$GITHUB_REF_NAME" NotoSerifMono-${GITHUB_REF_NAME}.zip --title "Noto Serif Mono $GITHUB_REF_NAME" --notes-file CHANGELOG.md
+        env:
+          GH_TOKEN: ${{ github.token }}

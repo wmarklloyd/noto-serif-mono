@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zigzagbelow" format="2">
+  <unicode hex="1DCF"/>
+  <anchor x="113" y="0" name="_bottom"/>
+  <anchor x="82" y="-247" name="bottom"/>
+  <anchor x="82" y="-247" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="90" y="-247" type="line"/>
+      <point x="141" y="-247" type="line"/>
+      <point x="175" y="-127" type="line"/>
+      <point x="52" y="-127" type="line"/>
+      <point x="70" y="-60" type="line"/>
+      <point x="19" y="-60" type="line"/>
+      <point x="-15" y="-180" type="line"/>
+      <point x="108" y="-180" type="line"/>
+    </contour>
+  </outline>
+</glyph>

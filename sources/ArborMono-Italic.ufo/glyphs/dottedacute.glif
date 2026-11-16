@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dottedacute" format="2">
+  <unicode hex="1DC1"/>
+  <anchor x="72" y="536" name="_top"/>
+  <anchor x="112" y="801" name="top"/>
+  <outline>
+    <contour>
+      <point x="254" y="701" type="qcurve"/>
+      <point x="273" y="701"/>
+      <point x="301" y="726"/>
+      <point x="301" y="751" type="qcurve"/>
+      <point x="301" y="777"/>
+      <point x="273" y="801"/>
+      <point x="254" y="801" type="qcurve"/>
+      <point x="235" y="801"/>
+      <point x="207" y="777"/>
+      <point x="207" y="751" type="qcurve"/>
+      <point x="207" y="726"/>
+      <point x="235" y="701"/>
+    </contour>
+    <contour>
+      <point x="28" y="651" type="qcurve"/>
+      <point x="31" y="638" type="line"/>
+      <point x="69" y="638" type="line"/>
+      <point x="101" y="669"/>
+      <point x="175" y="754"/>
+      <point x="198" y="788" type="qcurve"/>
+      <point x="195" y="798" type="line"/>
+      <point x="95" y="798" type="line"/>
+      <point x="84" y="767"/>
+      <point x="45" y="682"/>
+    </contour>
+    <contour>
+      <point x="-34" y="631" type="qcurve"/>
+      <point x="-15" y="631"/>
+      <point x="13" y="656"/>
+      <point x="13" y="681" type="qcurve"/>
+      <point x="13" y="707"/>
+      <point x="-15" y="731"/>
+      <point x="-34" y="731" type="qcurve"/>
+      <point x="-53" y="731"/>
+      <point x="-81" y="707"/>
+      <point x="-81" y="681" type="qcurve"/>
+      <point x="-81" y="656"/>
+      <point x="-53" y="631"/>
+    </contour>
+  </outline>
+</glyph>

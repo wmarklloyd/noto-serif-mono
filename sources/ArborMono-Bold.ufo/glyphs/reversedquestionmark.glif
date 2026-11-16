@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversedquestionmark" format="2">
+  <advance width="563"/>
+  <unicode hex="2E2E"/>
+  <outline>
+    <contour>
+      <point x="353" y="351" type="qcurve"/>
+      <point x="340" y="228" type="line"/>
+      <point x="265" y="228" type="line"/>
+      <point x="252" y="319" type="line"/>
+      <point x="152" y="360"/>
+      <point x="53" y="460"/>
+      <point x="53" y="540" type="qcurve"/>
+      <point x="53" y="598"/>
+      <point x="117" y="680"/>
+      <point x="227" y="724"/>
+      <point x="298" y="724" type="qcurve"/>
+      <point x="408" y="724"/>
+      <point x="511" y="657"/>
+      <point x="511" y="608" type="qcurve"/>
+      <point x="511" y="573"/>
+      <point x="431" y="538"/>
+      <point x="370" y="538" type="qcurve"/>
+      <point x="370" y="589"/>
+      <point x="335" y="664"/>
+      <point x="290" y="664" type="qcurve"/>
+      <point x="249" y="664"/>
+      <point x="212" y="604"/>
+      <point x="212" y="556" type="qcurve"/>
+      <point x="212" y="517"/>
+      <point x="235" y="440"/>
+      <point x="296" y="374"/>
+    </contour>
+    <contour>
+      <point x="304" y="-8" type="qcurve"/>
+      <point x="271" y="-8"/>
+      <point x="222" y="27"/>
+      <point x="222" y="72" type="qcurve"/>
+      <point x="222" y="118"/>
+      <point x="271" y="152"/>
+      <point x="304" y="152" type="qcurve"/>
+      <point x="338" y="152"/>
+      <point x="386" y="118"/>
+      <point x="386" y="72" type="qcurve"/>
+      <point x="386" y="27"/>
+      <point x="338" y="-8"/>
+    </contour>
+  </outline>
+</glyph>

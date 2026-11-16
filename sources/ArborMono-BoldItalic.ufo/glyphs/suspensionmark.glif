@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="suspensionmark" format="2">
+  <unicode hex="1DC3"/>
+  <anchor x="44" y="536" name="_top"/>
+  <anchor x="75" y="739" name="top"/>
+  <outline>
+    <contour>
+      <point x="-21" y="607" type="qcurve"/>
+      <point x="19" y="607"/>
+      <point x="107" y="636"/>
+      <point x="204" y="665"/>
+      <point x="257" y="665" type="qcurve"/>
+      <point x="265" y="665" type="line"/>
+      <point x="281" y="739" type="line"/>
+      <point x="260" y="739" type="line"/>
+      <point x="202" y="739"/>
+      <point x="105" y="710"/>
+      <point x="24" y="681"/>
+      <point x="-11" y="681" type="qcurve"/>
+      <point x="-56" y="681"/>
+      <point x="-56" y="717" type="qcurve"/>
+      <point x="-56" y="719"/>
+      <point x="-55" y="732"/>
+      <point x="-54" y="739" type="qcurve"/>
+      <point x="-132" y="739" type="line"/>
+      <point x="-135" y="720"/>
+      <point x="-135" y="701" type="qcurve"/>
+      <point x="-135" y="657"/>
+      <point x="-85" y="607"/>
+    </contour>
+  </outline>
+</glyph>

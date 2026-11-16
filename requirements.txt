@@ -1,0 +1,7 @@
+# Build and QA chain. Run `make update` to pin exact versions.
+gftools[qa]
+fontbakery[googlefonts]
+fontmake
+ttfautohint-py
+fonttools[woff]
+skia-pathops

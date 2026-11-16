@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1DFB" format="2">
+  <unicode hex="1DFB"/>
+  <anchor x="-17" y="429" name="_top"/>
+  <anchor x="31" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="-218" y="479" type="line"/>
+      <point x="-172" y="479" type="line"/>
+      <point x="-50" y="714" type="line"/>
+      <point x="-156" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="-30" y="479" type="line"/>
+      <point x="16" y="479" type="line"/>
+      <point x="138" y="714" type="line"/>
+      <point x="32" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="479" type="line"/>
+      <point x="204" y="479" type="line"/>
+      <point x="326" y="714" type="line"/>
+      <point x="220" y="714" type="line"/>
+    </contour>
+  </outline>
+</glyph>

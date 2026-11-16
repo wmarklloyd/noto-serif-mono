@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotbelowcomb" format="2">
+  <unicode hex="0323"/>
+  <anchor x="-347" y="0" name="_bottom"/>
+  <anchor x="-370" y="-182" name="bottom"/>
+  <anchor x="-370" y="-182" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="-372" y="-182" type="qcurve"/>
+      <point x="-350" y="-182"/>
+      <point x="-312" y="-151"/>
+      <point x="-312" y="-112" type="qcurve"/>
+      <point x="-312" y="-84"/>
+      <point x="-344" y="-57"/>
+      <point x="-368" y="-57" type="qcurve"/>
+      <point x="-395" y="-57"/>
+      <point x="-428" y="-95"/>
+      <point x="-428" y="-127" type="qcurve"/>
+      <point x="-428" y="-155"/>
+      <point x="-397" y="-182"/>
+    </contour>
+  </outline>
+</glyph>

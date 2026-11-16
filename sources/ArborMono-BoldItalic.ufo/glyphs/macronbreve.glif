@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronbreve" format="2">
+  <unicode hex="1DCC"/>
+  <anchor x="-161" y="536" name="_top"/>
+  <anchor x="-127" y="763" name="top"/>
+  <outline>
+    <contour>
+      <point x="-41" y="606" type="qcurve"/>
+      <point x="11" y="606"/>
+      <point x="91" y="653"/>
+      <point x="142" y="726"/>
+      <point x="151" y="763" type="qcurve"/>
+      <point x="85" y="763" type="line"/>
+      <point x="69" y="727"/>
+      <point x="14" y="695"/>
+      <point x="-22" y="695" type="qcurve"/>
+      <point x="-59" y="695"/>
+      <point x="-102" y="726"/>
+      <point x="-102" y="763" type="qcurve"/>
+      <point x="-392" y="763" type="line"/>
+      <point x="-409" y="684" type="line"/>
+      <point x="-155" y="684" type="line"/>
+      <point x="-142" y="650"/>
+      <point x="-87" y="606"/>
+    </contour>
+  </outline>
+</glyph>

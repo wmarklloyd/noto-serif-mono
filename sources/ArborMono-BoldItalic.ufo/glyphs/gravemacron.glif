@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravemacron" format="2">
+  <unicode hex="1DC5"/>
+  <anchor x="12" y="536" name="_top"/>
+  <anchor x="43" y="741" name="top"/>
+  <outline>
+    <contour>
+      <point x="7" y="602" type="line"/>
+      <point x="181" y="602" type="line"/>
+      <point x="196" y="676" type="line"/>
+      <point x="41" y="676" type="line"/>
+      <point x="-66" y="741" type="line"/>
+      <point x="-114" y="677" type="line"/>
+    </contour>
+  </outline>
+</glyph>

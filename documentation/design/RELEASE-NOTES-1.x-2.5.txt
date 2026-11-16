@@ -1,0 +1,258 @@
+NOTO SERIF MONO LINING — 2.3
+
+A compact monospaced, optically balanced derivative of Noto Serif.
+The four styles are Regular, Bold, Italic and Bold Italic.
+All printable ASCII glyphs use 563/1000-em advance width.
+Latin, Greek and Cyrillic letters use stroke-aware condensation where needed.
+The narrow t, r, i and l extend their serifs, not vertical stems.
+Zero is diagonally slashed; O is not. Lining uses Noto's zero.slash.
+Numbers are tabular and cap-height lining.
+Embedded TrueType auto-hint programs cover 7–72 ppem.
+No pair kerning changes character advances or column alignment.
+
+Install all four TTFs by selecting them in Windows and choosing Install.
+The distinct Noto Serif Mono and Noto Serif Mono Oldstyle families can coexist.
+Source: Google Noto Serif 2.004, installed OFL-licensed release.
+Noto Serif copyright 2015 Google LLC; see OFL.txt and SOURCE_COPYRIGHT.txt.
+
+Version 1.3 revises the spacing of H, I and J and their related glyphs.
+See CAPITAL_SPACING.md and the proofs in Version-1.3-proof.
+The Version-1.2-proof folder contains the preceding release's proofs.
+The 1.3 source pass takes the 1.2 TTFs produced by the original builder.
+
+Version 1.4 rebuilds both slanted styles. See ITALIC_REVISION.md,
+the files in Version-1.4-proof.
+
+Version 1.5 revises G, H, I and J in both italic faces. See
+Version-1.5-proof and ITALIC_CAPITALS.md.
+
+Version 1.6 aligns the stem angles of H, I, K, L, M and N in Italic and
+Bold Italic and extends these adjustments to related forms. The angles
+are measured from vertical along a stem centerline between y=150 and 560.
+H and I were 9.6 and 11.9 degrees in Italic and are now both 11.0.
+In Bold Italic they were 9.3 and 12.0 and are now 10.8 and 11.0.
+See Version-1.6-proof/NotoSerifMono-ItalicTilt.png for the 1.5/1.6 comparison and the two CSVs
+for changed metrics and the 2,704 ASCII letter-pair clearances per face.
+All character advances were preserved. FreeType digit rasters at
+12–32 px/em matched 1.5 at all six tested sizes. DirectWrite was untested.
+The v1.6 refiner uses the same intermediate build and NATURAL setting
+as v1.5.
+
+Version 1.7 balances JIG in both slanted faces by moving I 20 units left
+and J's shaft 35 units right, then extending J's top serif leftward to
+retain the cap-height spacing of IJ. This affects 41 mapped I/J forms
+per face. Advances and slopes are preserved. The new audit compares
+every ASCII letter pair and finds no new or worsened overlaps in its
+sampled rows. See Version-1.7-proof/NotoSerifMono-JIGSpacing.png for 1.6 and 1.7 at 12–68 px/em.
+Build with the same intermediate fonts and NATURAL setting as v1.6.
+
+Version 1.8 reduces the reach of J's hook and right serif, and opens
+the lower spacing of AW in both slanted styles. The pair has a shaped
+advance of 1126 units, two 563-unit cells, in all four styles. At y=30
+the italic AW gap rose from 58 to 94 units in Italic and 61 to 96
+in Bold Italic. The straight portion of J retains its angle and the
+hook now descends to about 214 units from 240. Verification sampled
+8,836 printable non-space ASCII pairs per italic style, including the
+descender region. No new or worsened overlaps were found. The figures
+rendered identically in FreeType at the six tested sizes from 12–32
+px/em. See Version-1.8-proof/NotoSerifMono-J-AW.png. Build using the v1.4 intermediate italic
+fonts and NATURAL in SOURCE-v1.8/refine.py.
+
+Version 1.9 rebalances AWAY and JAZZ in Italic and Bold Italic. A moves
+29 units left, and W, Y and Z move 26, 13 and 20 units right. The
+same placements apply to related forms, affecting 93 mapped characters
+per face. The two A-side gaps shift in opposite directions: AW opens
+55 units, WA closes 55, AY opens 42, JA closes 29 and AZ opens 49.
+All advances and glyph outlines retain their dimensions. The audit
+found no new or worsened sampled intersections among 8,836 ASCII
+pairs per face. Digit bitmaps matched at 12–32 px/em in FreeType.
+See Version-1.9-proof/NotoSerifMono-AWAY-JAZZ.png for comparisons. Build with the v1.4
+intermediates and NATURAL using SOURCE-v1.9/refine.py.
+
+Version 2.0 narrows the open space between W and A in AWAY in both
+italic faces. W's right diagonal and A's left diagonal extend into
+the gap through the lower and middle body. The cap tops, glyph
+positions and 563-unit advances are preserved. See
+Version-2.0-proof/NotoSerifMono-AWAY-Spacing.png for AWAY, WAVE and WAX. The sampled
+8,836 non-space printable ASCII pairs per face showed no new or
+worsened overlaps. Build with the v1.4 intermediates and NATURAL
+using SOURCE-v2.0/refine.py.
+
+Version 2.1 is a three-pass spacing review for both slanted faces.
+Each pass rerendered 24 sample words and strings at 16, 21 and 30 px/em.
+Pass 1 refines cap terminals on I, J, L and F. Pass 2 addresses i,
+r and t in mixed-case samples and refines I's left serif. Pass 3
+refines W and A across WA, E in VE and OE, and J's left serif.
+The archive includes the two intermediate comparisons, the final
+comparison, and per-pair median horizontal clearances for each pass.
+
+The cap-line IJ gap narrowed 32 units in both faces (y=685), and the
+median WA gap narrowed 10 units in Italic and 12 in Bold Italic.
+Some sampled gaps grow when the same glyph participates in another
+pair, including eJ at mid-body. All advances were preserved. The
+final scan found no new or worsened sampled intersections among
+8,836 non-space printable ASCII pairs per face. FreeType figure
+bitmaps matched at all six tested sizes. To reproduce, run
+SOURCE-v2.1/pass_spacing.py with the source directory, an existing
+output directory and pass number, feeding each output into the next.
+Start from a directory containing only the two v2.0 slanted TTFs.
+
+Version 2.2 runs five spacing passes in both slanted faces across 203
+unique samples at 16 and 26 px/em. See Version-2.2-proof/Spacing-review-v2.2 and the
+side-by-side final sample sheets. The corpus preserves the prior
+samples and adds diagonal pairs, J in several positions, repeated
+capitals, lowercase texture, mixed case, accents, Greek and Cyrillic.
+
+1. I, L and F terminals in OFFICE, ILLICIT, LITTLE and CLIFF.
+2. J and j in JIG, BANJO and JAVA, with less L extension after LI review.
+3. W and V diagonals in AWAY, WAYWARD, VALVE and VIVID, plus a
+   smaller follow-up offset on J after inspecting JA and JO.
+4. Lowercase i, r and t in BRITTLE, arithmetic, written and interval,
+   plus A's left diagonal in VA and WA.
+5. Z, e and k in JAZZ, PUZZLE, Xerox and mixed-case strings, plus
+   a smaller t extension to give rt more clearance.
+
+The Y-terminal trial widened an existing Bold Italic 7Y intersection and
+was removed during final QA. The final scan checked 8,836 non-space
+printable ASCII pairs per face. All advances and cmaps are preserved.
+The scan samples horizontal rows, and small-size verification uses
+FreeType grayscale. Windows DirectWrite was untested.
+
+To reproduce, begin with the v2.1 slanted TTFs and run
+SOURCE-v2.2/refine.py SOURCE OUTPUT PASS, feeding outputs into the next
+pass, in order from 1 through 5. Create each output directory first.
+
+Version 2.3 audits stroke weight across 2,840 mapped characters in
+each of the four faces. Weight-inventory.csv reports raster ink
+coverage and density before and after at 96 px/em, with matching
+Noto Serif coverage as a reference. Ink coverage is a screening
+measure and depends on the shape and the amount of compression.
+
+Stroke checks and proofs identified light outer stems in M, related
+loss in N and W, and narrow strokes in lowercase m. These strokes
+were strengthened into existing counters in both slanted faces,
+including contour-matched accented and cross-script forms. Italic U
+also received a small correction. A Bold Italic U trial was removed
+after worsening clearance with 7. See NotoSerifMono-Stroke-Weight.png.
+
+All advances and mappings are preserved. The final scan found no
+new or worsened sampled intersections across 8,836 printable ASCII
+pairs per slanted face. Figures rendered identically at six tested
+FreeType sizes. Windows DirectWrite was untested.
+
+Version 2.4 is a consistency and stroke-weight release for all four
+faces. Advances, cmaps, glyph order, point counts and hint programs are
+unchanged; only point positions moved.
+
+1. Upright H. The inner edges of both H stems in Regular and Bold were
+   pinched toward the crossbar (Regular 94/83/77/92 units at
+   y=150/300/420/560; Bold 130/123/115/133). They are now vertical:
+   96 and 135 units at every height. The fix carries to Η and Н.
+2. Accented forms re-synced. In 1.3 and earlier, many precomposed
+   letters had been condensed separately from their base letter and had
+   drifted by up to 30 units (Regular Ù/Ú 26, Ñ 23, Ď 28, Ģ 30). The
+   base-letter contour inside 290–380 glyphs per face is now an exact
+   copy of the plain letter, and marks move with its centre. Greek and
+   Cyrillic look-alikes (А В Е Н К М Т О Р С Х, Α Β Ε Ζ Η Ι Κ Μ Ν Ο Ρ
+   Τ Υ Χ and lowercase а е о р с х у і ј ѕ) follow the Latin letter.
+   Apostrophe-caron forms (ď ľ ť Ľ), ŀ/Ŀ, tonos capitals and polytonic
+   Greek were left alone because their bases are intentionally offset.
+3. Italic and Bold Italic weight. The slanted faces had been condensed
+   much harder than the uprights while keeping larger counters:
+   Italic H stems were 66 units against Italic I at 87 and n at 92.
+   Stems are now thickened horizontally with the bounding box kept
+   fixed. N, M, W and w thicken only their backslash (thick) strokes,
+   keeping the thin strokes thin. Every change is propagated to
+   contour-matched accented, Greek and Cyrillic forms.
+     Italic       H 66→83  N 47→79  M 37→63  W 58→72  D 75→83  K 67→80
+                  m 74→85  w 67→77  П 65→89  И 62→78 (+ Д Ж Л Ц Ш Щ Ы Ю Я Ф К Γ …)
+     Bold Italic  H 102→119  N 63→94  M 48→63  W 80→102  D 107→119
+                  m 104→116  w 98→106  П 91→112 (+ Γ Б Д Ж Л Ц Ш Щ …)
+     Bold         D 127→139
+   Counters were not allowed to shrink below 72% of their previous
+   width or 22 units, whichever is larger.
+4. Naming. Style name "BoldItalic" is now "Bold Italic" (IDs 2 and 4).
+   Redundant IDs 16/17 removed. All four faces are version 2.400
+   (Regular and Bold previously reported 1.300). OS/2 vendor ID changed
+   from GOOG to NONE, since this is not a Google release.
+
+Verification (Version-2.4-proof/Verification.txt): no new or worsened
+overlaps across 8,836 printable ASCII pairs per face, using 76 sampled
+rows from y=-240 to 885. No contour changed direction. FreeType hinted
+renders at 12, 16 and 20 px were inspected. DirectWrite was not tested.
+The hint programs were not regenerated because ttfautohint was not
+available. They still address the same points, but a rehint is
+recommended.
+
+To reproduce, run SOURCE-v2.4/build24.py OUTPUT and then finalize.py
+OUTPUT. build24.py reads the v2.3 TTFs from the path set in its source.
+
+Version 2.5 is a hinting audit and repair release. Outlines, advances
+and metrics are identical to 2.4. The ttfautohint programs (from the
+original builder) were examined with a FreeType 2.14 harness that
+renders every glyph unhinted, hinted v35, hinted v40 and monochrome,
+including FreeType's pedantic bytecode mode (SOURCE-v2.5/ftr.c).
+
+Findings that were fixed:
+1. Bytecode errors. The glyph programs for U+1ABF and U+1AC0 raised
+   Invalid_Reference (0x86) at 7–32 ppem in all four faces (2–3 glyphs,
+   680 failures in total). Their instructions are removed; they now
+   render from the plain outline. The pedantic scan is now clean for
+   all glyphs at 7–72 ppem in v35, v40 and mono.
+2. Bold did not line up with the other faces. ttfautohint measured
+   Bold's x-height overshoot as 549 units (548 in a second entry)
+   against 546 in Regular, Italic and Bold Italic. Because the hints
+   scale each glyph to fit the rounded x-height, Bold was scaled
+   differently at many sizes. Bold keywords in Regular code were taller
+   or shorter by a pixel at 8, 16, 17, 25, 26, 28, 32, 33 and 38–48 px.
+   Bold's five x-height alignment CVT entries (47, 67, 141, 161, 181)
+   now use the Regular values. All four faces render the same
+   x-height, cap height, ascender and figure height at every size from
+   8 to 48 px. See Version-2.5-proof/NotoSerifMono-v2.5-MixedStyleAlignment.png.
+3. head.flags bit 3 ("force integer ppem") was clear. The OpenType
+   spec strongly recommends it for hinted fonts and it is now set.
+
+Checked and left unchanged:
+- Blue zones: baseline, x-height, cap height, ascender and figure
+  heights align within each face at every size from 9 to 24 px in all
+  renderers. Hinted vertical extents match the outlines. Neither the
+  later outline edits nor the 2.4 changes left stale hints.
+- X-height rounding: ttfautohint rounds the x-height up from .375 px.
+  This scales glyphs up by as much as 6% at some sizes and makes heights
+  step in pairs (16/17, 21/22 px). Round-to-nearest only shifted where
+  the steps fall (patch_round.py), so the default was kept.
+- Stem width mode stays "natural". The "strong" mode, which can be
+  enabled with patch_mode.py, makes horizontal strokes crisp, full-black
+  single pixels at 9–14 px. It also adds 10% ink to Regular and Italic
+  and closes more counters in the slanted faces. See
+  Optional-StemModes-natural-quantized-strong.png.
+- Windows GDI clipping: a few stacked-accent capitals (Ǜ Ṍ Ḗ Ẳ…) lose
+  one pixel at the top at 10, 12 and 14 px. Some symbols also extend
+  past the descent line (ℊ U+0489 U+A670–A672). Raising usWinAscent
+  and usWinDescent would increase GDI line spacing, so the metrics
+  were kept.
+- A full rehint with current ttfautohint is still worthwhile if it
+  becomes available. Run ttfautohint first, then apply hint25.py, so
+  the CVT harmonisation and fixes 1 and 3 are preserved.
+
+Build: python3 SOURCE-v2.5/hint25.py <2.4 dir> <out dir>
+
+Version 2.501 contains metadata cleanups found by a FontBakery-style audit.
+FontBakery itself could not be installed in the build environment.
+SOURCE-v2.5.1/minibakery.py reimplements about 45 key checks from its
+OpenType, Universal and Google Fonts profiles using fontTools. It is
+not a substitute for a real FontBakery run.
+Outlines, advances, hint programs and CVT are byte-identical to 2.500.
+
+Fixed: USE_TYPO_METRICS (fsSelection bit 7) is set. Typo, hhea and win
+values are already equal, so line spacing does not change. Mac
+(platform 1) name records were removed. The license URL is now
+https://openfontlicense.org. The empty GSUB 'liga' and GPOS 'kern'
+features were removed.
+
+Still reported: usWinDescent 293 is less than the lowest glyph,
+ℊ U+210A at -389. Six more glyphs also extend below -293:
+U+A670–A672, U+0489, U+2E10 and U+2E11. Windows GDI clips these.
+Raising usWinDescent to 389 would make GDI line spacing taller and was
+not done. The Google Fonts copyright-string format warning applies only
+to Google Fonts submissions.

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030A.sc" format="2">
+  <anchor x="0" y="536" name="_top"/>
+  <anchor x="0" y="814" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="596" type="qcurve"/>
+      <point x="50" y="596"/>
+      <point x="120" y="652"/>
+      <point x="120" y="705" type="qcurve"/>
+      <point x="120" y="758"/>
+      <point x="50" y="814"/>
+      <point x="0" y="814" type="qcurve"/>
+      <point x="-50" y="814"/>
+      <point x="-120" y="758"/>
+      <point x="-120" y="705" type="qcurve"/>
+      <point x="-120" y="652"/>
+      <point x="-50" y="596"/>
+    </contour>
+    <contour>
+      <point x="0" y="645" type="qcurve"/>
+      <point x="-27" y="645"/>
+      <point x="-66" y="673"/>
+      <point x="-66" y="705" type="qcurve"/>
+      <point x="-66" y="737"/>
+      <point x="-27" y="765"/>
+      <point x="0" y="765" type="qcurve"/>
+      <point x="27" y="765"/>
+      <point x="66" y="737"/>
+      <point x="66" y="705" type="qcurve"/>
+      <point x="66" y="673"/>
+      <point x="27" y="645"/>
+    </contour>
+  </outline>
+</glyph>

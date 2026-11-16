@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB6B" format="2">
+  <advance width="563"/>
+  <unicode hex="AB6B"/>
+  <outline>
+    <contour>
+      <point x="245" y="166" type="line"/>
+      <point x="262" y="246" type="line"/>
+      <point x="361" y="246" type="line"/>
+      <point x="371" y="299" type="line"/>
+      <point x="272" y="299" type="line"/>
+      <point x="289" y="378" type="line"/>
+      <point x="236" y="378" type="line"/>
+      <point x="192" y="166" type="line"/>
+    </contour>
+  </outline>
+</glyph>

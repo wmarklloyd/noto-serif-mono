@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lacute" format="2">
+  <advance width="563"/>
+  <unicode hex="0139"/>
+  <anchor x="267" y="0" name="bottom"/>
+  <anchor x="353" y="357" name="center"/>
+  <anchor x="448" y="931" name="top"/>
+  <anchor x="666" y="714" name="topright"/>
+  <anchor x="267" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="21" y="0" type="line"/>
+      <point x="516" y="0" type="line"/>
+      <point x="546" y="215" type="line"/>
+      <point x="499" y="215" type="line"/>
+      <point x="482" y="140" type="line"/>
+      <point x="473" y="108"/>
+      <point x="427" y="50"/>
+      <point x="382" y="50" type="qcurve"/>
+      <point x="206" y="50" type="line"/>
+      <point x="313" y="604" type="line"/>
+      <point x="322" y="649"/>
+      <point x="369" y="672"/>
+      <point x="398" y="672" type="qcurve"/>
+      <point x="410" y="672" type="line"/>
+      <point x="419" y="714" type="line"/>
+      <point x="158" y="714" type="line"/>
+      <point x="150" y="672" type="line"/>
+      <point x="161" y="672" type="line"/>
+      <point x="190" y="672"/>
+      <point x="226" y="658"/>
+      <point x="226" y="632" type="qcurve"/>
+      <point x="226" y="620"/>
+      <point x="222" y="604" type="qcurve"/>
+      <point x="127" y="114" type="line"/>
+      <point x="117" y="67"/>
+      <point x="71" y="42"/>
+      <point x="41" y="42" type="qcurve"/>
+      <point x="29" y="42" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="784" type="qcurve"/>
+      <point x="295" y="771" type="line"/>
+      <point x="331" y="771" type="line"/>
+      <point x="359" y="789"/>
+      <point x="419" y="844"/>
+      <point x="473" y="901"/>
+      <point x="486" y="921" type="qcurve"/>
+      <point x="489" y="931" type="line"/>
+      <point x="393" y="931" type="line"/>
+      <point x="374" y="894"/>
+      <point x="320" y="814"/>
+    </contour>
+  </outline>
+</glyph>

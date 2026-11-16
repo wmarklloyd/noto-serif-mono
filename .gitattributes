@@ -1,0 +1,6 @@
+*.glif text eol=lf
+*.plist text eol=lf
+*.fea text eol=lf
+*.ttf binary
+*.woff2 binary
+*.png binary

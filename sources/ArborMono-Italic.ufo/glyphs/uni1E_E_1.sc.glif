@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1EE1.sc" format="2">
+  <advance width="563"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="272" y="286" name="center"/>
+  <anchor x="371" y="769" name="top"/>
+  <anchor x="606" y="571" name="topright"/>
+  <anchor x="214" y="0" name="ogonek"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="uni031B" xOffset="565" yOffset="35"/>
+    <component base="tildecomb" xOffset="590" yOffset="35"/>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFE22" format="2">
+  <unicode hex="FE22"/>
+  <anchor x="-300" y="546" name="_top"/>
+  <outline>
+    <contour>
+      <point x="0" y="633" type="qcurve"/>
+      <point x="0" y="735" type="line"/>
+      <point x="-50" y="745"/>
+      <point x="-157" y="760"/>
+      <point x="-219" y="760" type="qcurve"/>
+      <point x="-287" y="760"/>
+      <point x="-387" y="685"/>
+      <point x="-395" y="607" type="qcurve"/>
+      <point x="-342" y="607" type="line"/>
+      <point x="-330" y="633"/>
+      <point x="-268" y="661"/>
+      <point x="-225" y="661" type="qcurve"/>
+      <point x="-166" y="661"/>
+      <point x="-57" y="644"/>
+    </contour>
+  </outline>
+</glyph>

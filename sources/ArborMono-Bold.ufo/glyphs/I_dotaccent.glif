@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idotaccent" format="2">
+  <advance width="563"/>
+  <unicode hex="0130"/>
+  <anchor x="282" y="0" name="bottom"/>
+  <anchor x="282" y="935" name="top"/>
+  <anchor x="462" y="714" name="topright"/>
+  <anchor x="282" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="64" y="0" type="line"/>
+      <point x="499" y="0" type="line"/>
+      <point x="499" y="53" type="line"/>
+      <point x="443" y="53" type="line"/>
+      <point x="408" y="53"/>
+      <point x="361" y="75"/>
+      <point x="361" y="118" type="qcurve"/>
+      <point x="361" y="596" type="line"/>
+      <point x="361" y="639"/>
+      <point x="408" y="661"/>
+      <point x="443" y="661" type="qcurve"/>
+      <point x="499" y="661" type="line"/>
+      <point x="499" y="714" type="line"/>
+      <point x="64" y="714" type="line"/>
+      <point x="64" y="661" type="line"/>
+      <point x="120" y="661" type="line"/>
+      <point x="155" y="661"/>
+      <point x="202" y="639"/>
+      <point x="202" y="596" type="qcurve"/>
+      <point x="202" y="118" type="line"/>
+      <point x="202" y="75"/>
+      <point x="155" y="53"/>
+      <point x="120" y="53" type="qcurve"/>
+      <point x="64" y="53" type="line"/>
+    </contour>
+    <contour>
+      <point x="279" y="791" type="qcurve"/>
+      <point x="314" y="791"/>
+      <point x="365" y="826"/>
+      <point x="365" y="863" type="qcurve"/>
+      <point x="365" y="901"/>
+      <point x="314" y="935"/>
+      <point x="279" y="935" type="qcurve"/>
+      <point x="243" y="935"/>
+      <point x="194" y="901"/>
+      <point x="194" y="863" type="qcurve"/>
+      <point x="194" y="826"/>
+      <point x="243" y="791"/>
+    </contour>
+  </outline>
+</glyph>
