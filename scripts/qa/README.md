@@ -25,5 +25,7 @@ installed and a pure-Python flood fill otherwise.
 | `ftr_py.py FONT PPEM MODE INTERP GID…` | Pure-Python stand-in for the compiled `ftr` renderer |
 | `../make_hint_controls.py FONT…` | Not a check: regenerates the ttfautohint control files in `sources/hinting/` and reports any accent still touching its letter after hinting. Rerun it whenever outlines change, before `scripts/hint.py` |
 | `check_family.py DIR` | About 45 FontBakery/fontspector-style metadata checks in pure fontTools, for use when fontspector is unavailable |
+| `contact_sheet.py FONT OUT.png` | Not a check: every glyph in its cell, with code point or name, for reviewing spacing across the whole font |
+| `specimen.py [DIR] [OUT.png]` | Not a check: redraws `documentation/specimen.png`, the README image, from the built fonts. Rerun it after a rename or a change to the cell |
 
 `STYLE` is one of Regular, Bold, Italic or BoldItalic, and refers to `fonts/ttf/NotoSerifMono-STYLE.ttf`.
