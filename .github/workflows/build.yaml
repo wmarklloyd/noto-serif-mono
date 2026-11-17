@@ -46,8 +46,9 @@ jobs:
       - name: Release (on version tags)
         if: startsWith(github.ref, 'refs/tags/v')
         run: |
-          cd fonts && zip -r ../NotoSerifMono-${GITHUB_REF_NAME}.zip . && cd ..
-          zip -j NotoSerifMono-${GITHUB_REF_NAME}.zip OFL.txt README.md
-          gh release create "$GITHUB_REF_NAME" NotoSerifMono-${GITHUB_REF_NAME}.zip --title "Noto Serif Mono $GITHUB_REF_NAME" --notes-file CHANGELOG.md
+          # A fixed asset name keeps releases/latest/download/NotoSerifMono.zip (linked from the README) valid
+          cd fonts && zip -r ../NotoSerifMono.zip . && cd ..
+          zip -j NotoSerifMono.zip OFL.txt README.md
+          gh release create "$GITHUB_REF_NAME" NotoSerifMono.zip --title "Noto Serif Mono $GITHUB_REF_NAME" --notes-file CHANGELOG.md
         env:
           GH_TOKEN: ${{ github.token }}

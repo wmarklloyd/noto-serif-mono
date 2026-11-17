@@ -27,8 +27,11 @@ covers Latin, Greek and Cyrillic, with more than 2,800 encoded characters.
 
 ## Download
 
-Font files are in [`fonts/ttf`](fonts/ttf). Tagged versions are
-published on the [releases page](https://github.com/wmarklloyd/noto-serif-mono/releases).
+**[Download the latest release (ZIP)](https://github.com/wmarklloyd/noto-serif-mono/releases/latest/download/NotoSerifMono.zip)**:
+the four TTFs, the WOFF2 webfonts, the license and this README.
+
+Font files are also in [`fonts/ttf`](fonts/ttf), and every tagged version is on the
+[releases page](https://github.com/wmarklloyd/noto-serif-mono/releases).
 
 ## Building
 
