@@ -14,20 +14,19 @@ family eligible but does not guarantee it will be accepted.
 - [x] Release v2.502 published with the fonts as `NotoSerifMono.zip`, which the
       README links to.
 
-## 2. Ask first
+## 2. Submissions
 
-- [ ] **Submission route.** Propose the family to the Noto project first, in an
-      issue at [notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic/issues)
-      (the repository for Noto Serif and Noto Sans Mono). Noto is Google's
-      trademark and its own project, so a family called "Noto Serif Mono" belongs
-      there if they want it. If they take it on, the name, originality and
-      variable-font questions below are theirs to settle. Link the repository,
-      the specimen and the release, and say you are willing to rename it.
-- [ ] **If Noto declines:** open an issue at
-      [google/fonts](https://github.com/google/fonts/issues). The guide lists
-      originality as a requirement for new families, and this is a derivative of
-      Noto Serif, which is already in the catalog, so ask whether it is in scope.
-      It would most likely need a name without "Noto".
+- [x] **Noto project.** Submitted to the Noto project
+      ([notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic),
+      the repository for Noto Serif and Noto Sans Mono); awaiting their response.
+      If they take it on, the name and variable-font questions below are theirs to
+      settle.
+- [ ] **Google Fonts, separately: not decided.** If it is submitted there, open an
+      issue at [google/fonts](https://github.com/google/fonts/issues). The guide
+      lists originality as a requirement for new families, and this is a
+      derivative of Noto Serif, which is already in the catalog, so ask whether it
+      is in scope. "Noto" is Google's trademark and its own project, so it would
+      most likely need a different name.
 - [ ] **Contributor License Agreement.** Every copyright holder must sign
       Google's CLA. The Noto Serif copyright already belongs to Google LLC.
 
@@ -45,7 +44,7 @@ family eligible but does not guarantee it will be accepted.
 | `USE_TYPO_METRICS`, typo = hhea, zero line gaps | ✅ |
 | Hinting (ttfautohint for static TTFs) | ✅ `scripts/hint.py` reapplies the family alignment fix after autohinting |
 | Win ascent/descent cover all glyphs | ✅ `usWinDescent` raised from 293 to 389, so ℊ and the inherited Cyrillic marks are no longer clipped under Windows GDI |
-| Vendor ID | ⚠️ `ARBR`, left from the Arbor name; fontspector warns it is unregistered. Change or register it once the route in step 2 is settled (Noto fonts use `GOOG`) |
+| Vendor ID | ⚠️ `ARBR`, left from the Arbor name; fontspector warns it is unregistered. Change or register it once Noto responds (Noto fonts use `GOOG`) |
 | GF Latin Core glyph set | ✅ fontspector's glyph-coverage check passes |
 | fontspector googlefonts profile, no FAILs | ⚠️ 1 FAIL left: Khanty Tje U+1C89/U+1C8A not drawn (Noto Serif 2.015 has no Tje either); run `make test` |
 | Variable font | ⚠️ see below |
@@ -60,7 +59,7 @@ re-running the adaptation (`scripts/history/`) on Noto Serif's
 variable *sources* (masters from
 [notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic))
 so that every master gets identical point structures. Raise this in the
-issue from step 2: they may accept the static family first, or prefer to
+Noto submission: they may accept the static family first, or prefer to
 build the variable font in their own pipeline.
 
 ## 4. Submission

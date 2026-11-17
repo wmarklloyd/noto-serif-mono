@@ -68,19 +68,18 @@ example, also creates a release with the built fonts.
 
 ## Status and roadmap
 
-Version 2.502 is the current release. Noto Serif Mono is being prepared
-for the Noto project or Google Fonts; [ONBOARDING.md](ONBOARDING.md) has
-the checklist. The open items are:
+Version 2.502 is the current release. Noto Serif Mono has been submitted to the
+Noto project ([notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic),
+which also holds Noto Serif and Noto Sans Mono). Whether to submit it separately
+to Google Fonts has not been decided. [ONBOARDING.md](ONBOARDING.md) has the
+checklist. The open items are:
 
-- **Where it goes.** The plan is to propose it to the Noto project
-  ([notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic),
-  which also holds Noto Serif and Noto Sans Mono). If Noto declines, it would go to
-  Google Fonts, probably under a name without "Noto".
+- **The Noto submission**, awaiting their response.
 - **A variable `wght` font.** Regular and Bold were adapted separately and are not
   point-compatible, so a variable version means redoing the adaptation from Noto
   Serif's variable sources.
 - **Vendor ID.** The fonts carry `ARBR`, left from an earlier name. It will be
-  changed or registered once the submission route is settled.
+  changed or registered once Noto responds.
 - **Khanty Tje** (U+1C89/U+1C8A) is not drawn, because Noto Serif has no Tje to
   adapt. It is fontspector's one remaining FAIL.
 
