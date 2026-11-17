@@ -47,7 +47,7 @@ make test      # fontspector, googlefonts profile, into out/fontspector
 make proof     # HTML proofs into out/proof
 ```
 
-GitHub Actions runs the same steps on every push. Tagging `v2.501`, for
+GitHub Actions runs the same steps on every push. Tagging `v2.502`, for
 example, also creates a release with the built fonts.
 
 ### Repository layout

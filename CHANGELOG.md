@@ -4,7 +4,7 @@ Versions follow the [Google Fonts versioning scheme](https://googlefonts.github.
 The full per-version notes for 1.x–2.5 are in
 [documentation/design/RELEASE-NOTES-1.x-2.5.txt](documentation/design/RELEASE-NOTES-1.x-2.5.txt).
 
-## Unreleased
+## 2.502 — 2026-11-16
 - Spacing: the cell is 10 units wider (563 to 573 per 1000 em), 5 units added on each side
   of every glyph, so serifs on neighbouring capitals no longer come close to touching.
   Combining marks are unchanged; anchors move with their letters.

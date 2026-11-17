@@ -76,7 +76,7 @@ family first.
 
 ## 4. Submission
 
-- [ ] Tag a release (`git tag v2.501 && git push --tags`). CI attaches the
+- [ ] Tag a release (`git tag v2.502 && git push --tags`). CI attaches the
       fonts to a GitHub release.
 - [ ] Update the issue with the release link, the fontspector report and the
       proofs (`make proof`). The Google Fonts team packages the family with
