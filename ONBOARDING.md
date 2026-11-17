@@ -1,32 +1,33 @@
-# Road to Google Fonts
+# Road to Noto / Google Fonts
 
 A working checklist based on the
 [Google Fonts Guide](https://googlefonts.github.io/gf-guide/onboarding.html).
 Google Fonts is a curated catalog, so meeting every technical item makes a
 family eligible but does not guarantee it will be accepted.
 
-## 1. Before the first push
+## 1. Repository
 
-- [ ] Fill in your name and GitHub user:
-      `python3 scripts/personalize.py --name "Your Name" --github your-user`.
-      This replaces `Mark Lloyd` and `wmarklloyd` in the README, OFL,
-      AUTHORS, sources and fonts.
-- [ ] Create a **public** repository named `noto-serif-mono`. Google Fonts does
-      not accept contributions from forks.
-- [ ] Push. GitHub Actions builds the fonts and runs fontspector. Download
-      the `noto-serif-mono-qa` artifact for the report.
+- [x] Name and GitHub user filled in (`scripts/personalize.py`).
+- [x] Public repository `wmarklloyd/noto-serif-mono` (not a fork).
+- [x] GitHub Actions builds the fonts and runs fontspector on every push. The
+      `noto-serif-mono-qa` artifact has the report.
+- [x] Release v2.502 published with the fonts as `NotoSerifMono.zip`, which the
+      README links to.
 
-## 2. Ask Google Fonts early
+## 2. Ask first
 
-- [ ] **Originality.** The guide lists originality as a requirement for new
-      families. Noto Serif Mono is a derivative of Noto Serif, which is already
-      in the catalog. Before investing in the remaining items, open an issue
-      at [google/fonts](https://github.com/google/fonts/issues) titled
-      "Add Noto Serif Mono". Describe the project and ask whether a monospaced
-      adaptation of Noto Serif is in scope. Link the repository and specimen.
-- [ ] **Name.** A quick search found no existing "Noto Serif Mono" (Arboria is a
-      different, commercial family). Do a trademark search before
-      committing to the name.
+- [ ] **Submission route.** Propose the family to the Noto project first, in an
+      issue at [notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic/issues)
+      (the repository for Noto Serif and Noto Sans Mono). Noto is Google's
+      trademark and its own project, so a family called "Noto Serif Mono" belongs
+      there if they want it. If they take it on, the name, originality and
+      variable-font questions below are theirs to settle. Link the repository,
+      the specimen and the release, and say you are willing to rename it.
+- [ ] **If Noto declines:** open an issue at
+      [google/fonts](https://github.com/google/fonts/issues). The guide lists
+      originality as a requirement for new families, and this is a derivative of
+      Noto Serif, which is already in the catalog, so ask whether it is in scope.
+      It would most likely need a name without "Noto".
 - [ ] **Contributor License Agreement.** Every copyright holder must sign
       Google's CLA. The Noto Serif copyright already belongs to Google LLC.
 
@@ -35,31 +36,19 @@ family eligible but does not guarantee it will be accepted.
 | Requirement | Status |
 | --- | --- |
 | OFL 1.1, no Reserved Font Name | ✅ `OFL.txt` |
-| Sources in the repo, built with open-source tools | ✅ UFO sources plus `sources/config.yaml`. ⚠️ Run `make build` once and check `make verify` |
+| Sources in the repo, built with open-source tools | ✅ UFO sources plus `sources/config.yaml`; `make verify` passes in CI |
 | Repository layout (project template) | ✅ |
-| Copyright string format | ⚠️ Google Fonts expects `Copyright YYYY The X Project Authors (URL)`. The Noto Serif notice must stay (OFL), so the string carries both notices. If fontspector objects, ask the onboarding team which format they want for derivatives |
+| Copyright string format | ✅ fontspector accepts it. It carries both notices: the Noto Serif notice must stay (OFL). Ask which format they prefer for a derivative |
 | License description and URL in the name table | ✅ |
 | `fsType` 0 | ✅ |
 | Monospace flags (`isFixedPitch`, PANOSE proportion 9, uniform advances) | ✅ |
 | `USE_TYPO_METRICS`, typo = hhea, zero line gaps | ✅ |
 | Hinting (ttfautohint for static TTFs) | ✅ `scripts/hint.py` reapplies the family alignment fix after autohinting |
-| Win ascent/descent cover all glyphs | ❌ see below |
-| Vendor ID | ⚠️ `NONE`. Register one with Microsoft or leave it as is |
-| GF Latin Core glyph set | ⚠️ likely complete; confirm with fontspector's glyph-coverage check |
+| Win ascent/descent cover all glyphs | ✅ `usWinDescent` raised from 293 to 389, so ℊ and the inherited Cyrillic marks are no longer clipped under Windows GDI |
+| Vendor ID | ⚠️ `ARBR`, left from the Arbor name; fontspector warns it is unregistered. Change or register it once the route in step 2 is settled (Noto fonts use `GOOG`) |
+| GF Latin Core glyph set | ✅ fontspector's glyph-coverage check passes |
 | fontspector googlefonts profile, no FAILs | ⚠️ 1 FAIL left: Khanty Tje U+1C89/U+1C8A not drawn (Noto Serif 2.015 has no Tje either); run `make test` |
 | Variable font | ⚠️ see below |
-
-### Win descent (a fontspector FAIL in the universal checks)
-
-`usWinDescent` is 293 units, but 7 inherited glyphs reach lower:
-ℊ (−389), U+A670–A672, U+0489, U+2E10 and U+2E11. Windows GDI clips
-them. There are two options:
-
-1. Raise `openTypeOS2WinDescent` to 389 in all four UFOs. This is the usual
-   choice. Line spacing in older GDI applications grows by about 1.5 px at
-   16 px. DirectWrite, macOS and browsers use the typo metrics, so they are
-   unaffected.
-2. Redraw or remove those glyphs so they fit within −293.
 
 ### Variable font
 
@@ -67,18 +56,18 @@ Google Fonts publishes many families as variable fonts and may ask for one. Regu
 Bold here are not point-compatible: about a third of the glyphs match, and
 most letters do not. That is because each style was adapted separately
 from Noto Serif's static fonts. A `wght` variable version would require
-re-running the Arbor adaptation (`scripts/history/`) on Noto Serif's
+re-running the adaptation (`scripts/history/`) on Noto Serif's
 variable *sources* (masters from
 [notofonts/latin-greek-cyrillic](https://github.com/notofonts/latin-greek-cyrillic))
-so that every master gets identical point structures. Raise this with the
-onboarding team in the issue from step 2: they may accept the static
-family first.
+so that every master gets identical point structures. Raise this in the
+issue from step 2: they may accept the static family first, or prefer to
+build the variable font in their own pipeline.
 
 ## 4. Submission
 
-- [ ] Tag a release (`git tag v2.502 && git push --tags`). CI attaches the
-      fonts to a GitHub release.
+- [x] Tag a release (v2.502). CI attaches the fonts to the GitHub release as
+      `NotoSerifMono.zip`.
 - [ ] Update the issue with the release link, the fontspector report and the
-      proofs (`make proof`). The Google Fonts team packages the family with
-      `gftools packager`; you do not open a PR to google/fonts yourself
-      unless they ask you to.
+      proofs (`make proof`). For Google Fonts, their team packages the family
+      with `gftools packager`; you do not open a PR to google/fonts yourself
+      unless they ask you to. Noto would bring it into its own repository.
