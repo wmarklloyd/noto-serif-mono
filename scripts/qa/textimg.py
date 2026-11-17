@@ -8,7 +8,7 @@ def text_image(path,ppem,lines,mode=1,iv=40):
     t=TTFont(path); cm=t.getBestCmap()
     names=sorted({cm[ord(c)] for l in lines for c in l if ord(c) in cm})
     R=render(path,ppem,names,mode,iv)
-    adv=0.563*ppem; lh=int(round(1.362*ppem)); asc=int(round(1.069*ppem))
+    adv=0.573*ppem; lh=int(round(1.362*ppem)); asc=int(round(1.069*ppem))
     W=int(adv*max(map(len,lines)))+4; H=lh*len(lines)+2
     img=np.zeros((H,W),float)
     for li,l in enumerate(lines):

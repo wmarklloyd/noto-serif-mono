@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
+  <advance width="573"/>
+  <unicode hex="02DA"/>
+  <outline>
+    <contour>
+      <point x="287" y="596" type="qcurve"/>
+      <point x="337" y="596"/>
+      <point x="407" y="652"/>
+      <point x="407" y="705" type="qcurve"/>
+      <point x="407" y="758"/>
+      <point x="337" y="814"/>
+      <point x="287" y="814" type="qcurve"/>
+      <point x="237" y="814"/>
+      <point x="167" y="758"/>
+      <point x="167" y="705" type="qcurve"/>
+      <point x="167" y="652"/>
+      <point x="237" y="596"/>
+    </contour>
+    <contour>
+      <point x="287" y="645" type="qcurve"/>
+      <point x="260" y="645"/>
+      <point x="221" y="673"/>
+      <point x="221" y="705" type="qcurve"/>
+      <point x="221" y="737"/>
+      <point x="260" y="765"/>
+      <point x="287" y="765" type="qcurve"/>
+      <point x="314" y="765"/>
+      <point x="353" y="737"/>
+      <point x="353" y="705" type="qcurve"/>
+      <point x="353" y="673"/>
+      <point x="314" y="645"/>
+    </contour>
+  </outline>
+</glyph>

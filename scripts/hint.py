@@ -29,7 +29,9 @@ Steps, in place for each font:
      STAT for variable fonts, and Google Fonts requires it on statics.
   6. Add a meta table declaring the design and supported scripts
      (dlng/slng: Latn, Grek, Cyrl), as Google Fonts recommends.
-  7. Rewrite fonts/webfonts/*.woff2 from the finished TTFs. gftools builder
+  7. Set the OVERLAP_SIMPLE / OVERLAP_COMPOUND flag on glyphs that still
+     overlap (components that touch, contours pathops left touching).
+  8. Rewrite fonts/webfonts/*.woff2 from the finished TTFs. gftools builder
      compresses the webfonts before this script runs, so without this step
      they would ship without hinting or STAT.
 """
@@ -119,6 +121,39 @@ def add_meta(font):
     font['meta'] = meta
 
 
+def set_overlap_flags(font):
+    """Set OVERLAP_SIMPLE / OVERLAP_COMPOUND on glyphs whose outline still overlaps itself:
+    composites whose components overlap (an accent on a small cap, a cedilla on d).
+    Rasterizers that honour the flag then fill them correctly. Same test as fontspector's
+    overlaps_bit: removing overlaps changes the filled area (the union differs from the
+    signed sum of the contour areas)."""
+    import pathops
+    from fontTools.pens.areaPen import AreaPen
+    from fontTools.ttLib.tables._g_l_y_f import flagOverlapSimple, OVERLAP_COMPOUND
+    gs = font.getGlyphSet(); glyf = font['glyf']; named = []
+    for n in font.getGlyphOrder():   # clear flags left by an earlier run
+        g = glyf[n]
+        if g.isComposite():
+            for c in g.components: c.flags &= ~OVERLAP_COMPOUND
+        elif g.numberOfContours > 0:
+            g.flags[0] &= ~flagOverlapSimple
+    for n in font.getGlyphOrder():
+        g = glyf[n]
+        if g.numberOfContours == 0:
+            continue
+        ap = AreaPen(gs); gs[n].draw(ap)
+        p = pathops.Path(); gs[n].draw(p.getPen(glyphSet=gs)); p.simplify(fix_winding=True)
+        overlap = abs(abs(ap.value) - p.area) > 1
+        if not overlap:
+            continue
+        if g.isComposite():
+            g.components[0].flags |= OVERLAP_COMPOUND
+        else:
+            g.flags[0] |= flagOverlapSimple
+        named.append(n)
+    return named
+
+
 def postfix(paths):
     fonts = {p: TTFont(p) for p in paths}
     ref = next((t for p, t in fonts.items() if p.endswith('-Regular.ttf')), None)
@@ -135,6 +170,8 @@ def postfix(paths):
         log.append('STAT added')
         add_meta(t)
         log.append('meta added')
+        ov = set_overlap_flags(t)
+        log.append(f'overlap flag on {len(ov)} glyphs {ov}')
         if ref is not None and t is not ref:
             changed = align_xheight_cvt(t, ref, p)
             log.append(f'x-height CVT aligned to Regular {changed}' if changed else 'x-height CVT already aligned')

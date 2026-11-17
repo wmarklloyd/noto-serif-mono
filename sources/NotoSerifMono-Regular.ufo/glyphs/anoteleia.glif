@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="573"/>
+  <unicode hex="0387"/>
+  <outline>
+    <contour>
+      <point x="287" y="405" type="qcurve"/>
+      <point x="313" y="405"/>
+      <point x="349" y="437"/>
+      <point x="349" y="473" type="qcurve"/>
+      <point x="349" y="511"/>
+      <point x="313" y="541"/>
+      <point x="287" y="541" type="qcurve"/>
+      <point x="261" y="541"/>
+      <point x="225" y="511"/>
+      <point x="225" y="473" type="qcurve"/>
+      <point x="225" y="437"/>
+      <point x="261" y="405"/>
+    </contour>
+  </outline>
+</glyph>

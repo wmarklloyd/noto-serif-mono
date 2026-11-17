@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Turneda" format="2">
+  <advance width="573"/>
+  <unicode hex="2C6F"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="287" y="714" name="top"/>
+  <anchor x="549" y="714" name="topright"/>
+  <anchor x="287" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="549" y="714" type="line"/>
+      <point x="353" y="714" type="line"/>
+      <point x="353" y="672" type="line"/>
+      <point x="366" y="672" type="line"/>
+      <point x="411" y="672"/>
+      <point x="416" y="623" type="qcurve"/>
+      <point x="419" y="604"/>
+      <point x="413" y="580" type="qcurve"/>
+      <point x="386" y="475" type="line"/>
+      <point x="224" y="475" type="line"/>
+      <point x="196" y="587" type="line"/>
+      <point x="194" y="598"/>
+      <point x="192" y="616"/>
+      <point x="193" y="624" type="qcurve"/>
+      <point x="198" y="672"/>
+      <point x="239" y="672" type="qcurve"/>
+      <point x="252" y="672" type="line"/>
+      <point x="252" y="714" type="line"/>
+      <point x="24" y="714" type="line"/>
+      <point x="24" y="672" type="line"/>
+      <point x="34" y="672" type="line"/>
+      <point x="55" y="672"/>
+      <point x="82" y="650"/>
+      <point x="89" y="619" type="qcurve"/>
+      <point x="255" y="0" type="line"/>
+      <point x="313" y="0" type="line"/>
+      <point x="477" y="594" type="line"/>
+      <point x="488" y="642"/>
+      <point x="513" y="672"/>
+      <point x="535" y="672" type="qcurve"/>
+      <point x="549" y="672" type="line"/>
+    </contour>
+    <contour>
+      <point x="374" y="425" type="line"/>
+      <point x="326" y="241" type="line"/>
+      <point x="317" y="194"/>
+      <point x="304" y="128"/>
+      <point x="300" y="92" type="qcurve"/>
+      <point x="297" y="128"/>
+      <point x="285" y="206"/>
+      <point x="279" y="250" type="qcurve"/>
+      <point x="236" y="425" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclamdbl.sc" format="2">
+  <advance width="573"/>
+  <outline>
+    <contour>
+      <point x="343" y="170" type="line"/>
+      <point x="384" y="170" type="line"/>
+      <point x="510" y="571" type="line"/>
+      <point x="399" y="571" type="line"/>
+    </contour>
+    <contour>
+      <point x="342" y="-6" type="qcurve"/>
+      <point x="364" y="-6"/>
+      <point x="402" y="23"/>
+      <point x="402" y="59" type="qcurve"/>
+      <point x="402" y="86"/>
+      <point x="370" y="112"/>
+      <point x="346" y="112" type="qcurve"/>
+      <point x="319" y="112"/>
+      <point x="286" y="75"/>
+      <point x="286" y="46" type="qcurve"/>
+      <point x="286" y="20"/>
+      <point x="317" y="-6"/>
+    </contour>
+    <contour>
+      <point x="120" y="170" type="line"/>
+      <point x="161" y="170" type="line"/>
+      <point x="287" y="571" type="line"/>
+      <point x="176" y="571" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="-6" type="qcurve"/>
+      <point x="141" y="-6"/>
+      <point x="179" y="23"/>
+      <point x="179" y="59" type="qcurve"/>
+      <point x="179" y="86"/>
+      <point x="147" y="112"/>
+      <point x="123" y="112" type="qcurve"/>
+      <point x="96" y="112"/>
+      <point x="63" y="75"/>
+      <point x="63" y="46" type="qcurve"/>
+      <point x="63" y="20"/>
+      <point x="94" y="-6"/>
+    </contour>
+  </outline>
+</glyph>

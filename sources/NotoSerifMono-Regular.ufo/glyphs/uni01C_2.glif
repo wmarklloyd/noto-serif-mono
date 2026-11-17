@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01C2" format="2">
+  <advance width="573"/>
+  <unicode hex="01C2"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="287" y="760" name="top"/>
+  <anchor x="287" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="250" y="0" type="line"/>
+      <point x="323" y="0" type="line"/>
+      <point x="323" y="258" type="line"/>
+      <point x="512" y="258" type="line"/>
+      <point x="512" y="331" type="line"/>
+      <point x="323" y="331" type="line"/>
+      <point x="323" y="427" type="line"/>
+      <point x="512" y="427" type="line"/>
+      <point x="512" y="500" type="line"/>
+      <point x="323" y="500" type="line"/>
+      <point x="323" y="760" type="line"/>
+      <point x="250" y="760" type="line"/>
+      <point x="250" y="500" type="line"/>
+      <point x="61" y="500" type="line"/>
+      <point x="61" y="427" type="line"/>
+      <point x="250" y="427" type="line"/>
+      <point x="250" y="331" type="line"/>
+      <point x="61" y="331" type="line"/>
+      <point x="61" y="258" type="line"/>
+      <point x="250" y="258" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -49,18 +49,18 @@ for fn,t in fonts.items():
         rep('PASS' if post.italicAngle==0 and hhea.caretSlopeRun==0 else 'FAIL','opentype/italic_angle',fn,str(post.italicAngle))
     # monospace
     mapped=set(cm.values()); widths=collections.Counter(hm[g][0] for g in mapped)
-    nonmono=[g for g in mapped if hm[g][0] not in (0,563)]
-    rep('PASS' if post.isFixedPitch and os2.panose.bProportion==9 and hhea.advanceWidthMax==563 and not nonmono else 'FAIL','googlefonts/monospace',fn,
+    nonmono=[g for g in mapped if hm[g][0] not in (0,573)]
+    rep('PASS' if post.isFixedPitch and os2.panose.bProportion==9 and hhea.advanceWidthMax==573 and not nonmono else 'FAIL','googlefonts/monospace',fn,
         f'isFixedPitch={post.isFixedPitch} panose.prop={os2.panose.bProportion} advanceWidthMax={hhea.advanceWidthMax} non-mono mapped={len(nonmono)}')
     allw=collections.Counter(hm[g][0] for g in go)
-    rep('PASS' if set(allw)<= {0,563} else 'WARN','googlefonts/monospace (all glyphs)',fn,str(dict(allw)))
+    rep('PASS' if set(allw)<= {0,573} else 'WARN','googlefonts/monospace (all glyphs)',fn,str(dict(allw)))
     zero_nonmark=[g for g in mapped if hm[g][0]==0 and glyf[g].numberOfContours!=0 and not any(unicodedata.category(chr(c)).startswith('M') for c,gg in cm.items() if gg==g)]
     rep('WARN' if zero_nonmark else 'PASS','universal/zero-width non-mark glyphs',fn,str(zero_nonmark[:10]))
     xavg=round(sum(hm[g][0] for g in go if hm[g][0])/len([g for g in go if hm[g][0]]))
     rep('PASS' if abs(os2.xAvgCharWidth-xavg)<=1 else 'WARN','opentype/xavgcharwidth',fn,f'{os2.xAvgCharWidth} vs computed {xavg}')
     # whitespace
     for cp,name in ((0x20,'space'),(0xA0,'nbsp')):
-        g=cm.get(cp); rep('PASS' if g and hm[g][0]==563 and glyf[g].numberOfContours==0 else 'FAIL',f'universal/whitespace_glyphs ({name})',fn,str(g))
+        g=cm.get(cp); rep('PASS' if g and hm[g][0]==573 and glyf[g].numberOfContours==0 else 'FAIL',f'universal/whitespace_glyphs ({name})',fn,str(g))
     rep('PASS' if go[0]=='.notdef' and glyf['.notdef'].numberOfContours!=0 else 'WARN','universal/mandatory_glyphs (.notdef)',fn,go[0])
     ws=[cp for cp,g in cm.items() if unicodedata.category(chr(cp)) in ('Zs',) and glyf[g].numberOfContours!=0]
     rep('FAIL' if ws else 'PASS','universal/whitespace_ink',fn,str([hex(c) for c in ws]))

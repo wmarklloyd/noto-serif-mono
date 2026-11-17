@@ -10,7 +10,7 @@ def bar_profile(path,p,mode,iv,cm):
     out={}
     for ch,fx,(y0,y1),lab in BARS:
         n=cm[ord(ch)]; l,t,a=render(path,p,[n],mode,iv)[n]
-        col=int(round(fx*0.563*p))-l
+        col=int(round(fx*0.573*p))-l
         if not (0<=col<a.shape[1]): out[lab]=None; continue
         rows=[(t-1-r) for r in range(a.shape[0])]  # pixel row index from baseline (row covering [y,y+1))
         vals=[(rows[r],int(a[r,col])) for r in range(a.shape[0]) if y0*p/1000-1.5<=rows[r]<=y1*p/1000+1]

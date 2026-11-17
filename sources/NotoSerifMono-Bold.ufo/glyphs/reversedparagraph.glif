@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reversedparagraph" format="2">
+  <advance width="573"/>
+  <unicode hex="204B"/>
+  <outline>
+    <contour>
+      <point x="24" y="-111" type="line"/>
+      <point x="184" y="-111" type="line"/>
+      <point x="184" y="698" type="line"/>
+      <point x="265" y="698" type="line"/>
+      <point x="265" y="-111" type="line"/>
+      <point x="425" y="-111" type="line"/>
+      <point x="425" y="-58" type="line"/>
+      <point x="413" y="-58" type="line"/>
+      <point x="392" y="-58"/>
+      <point x="355" y="-49"/>
+      <point x="334" y="-18"/>
+      <point x="334" y="13" type="qcurve"/>
+      <point x="334" y="386" type="line"/>
+      <point x="402" y="386" type="line"/>
+      <point x="459" y="386"/>
+      <point x="522" y="441"/>
+      <point x="549" y="530"/>
+      <point x="549" y="582" type="qcurve"/>
+      <point x="549" y="662"/>
+      <point x="482" y="760"/>
+      <point x="400" y="760" type="qcurve"/>
+      <point x="24" y="760" type="line"/>
+      <point x="24" y="707" type="line"/>
+      <point x="36" y="707" type="line"/>
+      <point x="69" y="707"/>
+      <point x="115" y="682"/>
+      <point x="115" y="635" type="qcurve"/>
+      <point x="115" y="13" type="line"/>
+      <point x="115" y="-18"/>
+      <point x="94" y="-49"/>
+      <point x="59" y="-58"/>
+      <point x="36" y="-58" type="qcurve"/>
+      <point x="24" y="-58" type="line"/>
+    </contour>
+  </outline>
+</glyph>

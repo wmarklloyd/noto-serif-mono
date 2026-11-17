@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonos" format="2">
+  <advance width="573"/>
+  <unicode hex="0384"/>
+  <outline>
+    <contour>
+      <point x="180" y="621" type="qcurve"/>
+      <point x="177" y="606" type="line"/>
+      <point x="247" y="606" type="line"/>
+      <point x="273" y="632"/>
+      <point x="330" y="696"/>
+      <point x="380" y="759"/>
+      <point x="394" y="784" type="qcurve"/>
+      <point x="397" y="796" type="line"/>
+      <point x="261" y="796" type="line"/>
+      <point x="251" y="770"/>
+      <point x="223" y="707"/>
+      <point x="193" y="645"/>
+    </contour>
+  </outline>
+</glyph>

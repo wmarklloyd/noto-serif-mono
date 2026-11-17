@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="573"/>
+  <unicode hex="013E"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="223" y="268" name="center"/>
+  <anchor x="223" y="760" name="top"/>
+  <anchor x="349" y="760" name="topright"/>
+  <anchor x="223" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="354" y="613" type="qcurve"/>
+      <point x="354" y="600" type="line"/>
+      <point x="414" y="600" type="line"/>
+      <point x="431" y="622"/>
+      <point x="468" y="675"/>
+      <point x="500" y="729"/>
+      <point x="509" y="750" type="qcurve"/>
+      <point x="509" y="760" type="line"/>
+      <point x="393" y="760" type="line"/>
+      <point x="387" y="727"/>
+      <point x="364" y="643"/>
+    </contour>
+    <contour>
+      <point x="64" y="0" type="line"/>
+      <point x="382" y="0" type="line"/>
+      <point x="382" y="53" type="line"/>
+      <point x="370" y="53" type="line"/>
+      <point x="356" y="53"/>
+      <point x="322" y="62"/>
+      <point x="299" y="90"/>
+      <point x="299" y="118" type="qcurve"/>
+      <point x="299" y="760" type="line"/>
+      <point x="64" y="760" type="line"/>
+      <point x="64" y="707" type="line"/>
+      <point x="76" y="707" type="line"/>
+      <point x="90" y="707"/>
+      <point x="123" y="699"/>
+      <point x="147" y="673"/>
+      <point x="147" y="646" type="qcurve"/>
+      <point x="147" y="118" type="line"/>
+      <point x="147" y="90"/>
+      <point x="124" y="62"/>
+      <point x="91" y="53"/>
+      <point x="76" y="53" type="qcurve"/>
+      <point x="64" y="53" type="line"/>
+    </contour>
+  </outline>
+</glyph>

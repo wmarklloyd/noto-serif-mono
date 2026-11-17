@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA683" format="2">
+  <advance width="573"/>
+  <unicode hex="A683"/>
+  <anchor x="276" y="-240" name="bottom"/>
+  <anchor x="287" y="536" name="top"/>
+  <anchor x="276" y="-240" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="270" y="-240" type="qcurve"/>
+      <point x="363" y="-240"/>
+      <point x="479" y="-133"/>
+      <point x="479" y="-33" type="qcurve"/>
+      <point x="479" y="30"/>
+      <point x="437" y="118"/>
+      <point x="353" y="195"/>
+      <point x="290" y="238" type="qcurve"/>
+      <point x="252" y="265"/>
+      <point x="206" y="308"/>
+      <point x="185" y="357"/>
+      <point x="185" y="391" type="qcurve"/>
+      <point x="185" y="435"/>
+      <point x="234" y="499"/>
+      <point x="283" y="499" type="qcurve"/>
+      <point x="327" y="499"/>
+      <point x="394" y="441"/>
+      <point x="394" y="383" type="qcurve"/>
+      <point x="429" y="383"/>
+      <point x="466" y="416"/>
+      <point x="466" y="443" type="qcurve"/>
+      <point x="466" y="473"/>
+      <point x="418" y="519"/>
+      <point x="339" y="545"/>
+      <point x="293" y="545" type="qcurve"/>
+      <point x="207" y="545"/>
+      <point x="104" y="456"/>
+      <point x="104" y="377" type="qcurve"/>
+      <point x="104" y="328"/>
+      <point x="135" y="255"/>
+      <point x="194" y="195"/>
+      <point x="236" y="163" type="qcurve"/>
+      <point x="296" y="119"/>
+      <point x="367" y="57"/>
+      <point x="398" y="-9"/>
+      <point x="398" y="-57" type="qcurve"/>
+      <point x="398" y="-120"/>
+      <point x="332" y="-192"/>
+      <point x="276" y="-192" type="qcurve"/>
+      <point x="215" y="-192"/>
+      <point x="158" y="-115"/>
+      <point x="158" y="-55" type="qcurve"/>
+      <point x="146" y="-55"/>
+      <point x="117" y="-67"/>
+      <point x="95" y="-97"/>
+      <point x="95" y="-124" type="qcurve"/>
+      <point x="95" y="-164"/>
+      <point x="143" y="-215"/>
+      <point x="223" y="-240"/>
+    </contour>
+  </outline>
+</glyph>
